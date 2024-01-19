@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@200;300;400;500;700&family=Montserrat:wght@100;200;400;500;600;700&display=swap" rel="stylesheet">
+  <title>1%portfolio</title>
+</head>
+<body class="bg-white">
+  <nav class="bg-white w-full h-[5.5rem] z-10 flex items-center fixed top-0 justify-between md:justify-between px-4 md:px-[50px] lg:px-[100px] xl:px-[200px] ">
+      <div id="logo" class="bg-mainColor rounded-full w-16 h-16 grid place-items-center">
+        <h1 class="text-3xl font-bai text-white font-medium">1%</h1>
+      </div>
+
+      <div class="flex w-fit md:hidden justify-between gap-5 items-center">
+        <div  id="themeContainer" class="flex items-center justify-center w-fit">
+          <label for="toggleB" class="flex items-center cursor-pointer">
+            <!-- toggle -->
+            <div class="relative">
+              <!-- line -->
+              <div class="block bg-transparent border-2 w-14 h-8 rounded-full"></div>
+              <!-- dot -->
+              <div id="darkMode" class="dot absolute left-1 top-1 w-6 h-6 rounded-full grid place-items-center transition">
+                <svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M8.62503 18.2083C8.62503 19.0133 8.74961 19.7992 8.97961 20.5275C5.29961 19.2529 2.52044 15.87 2.23294 11.9121C1.94544 7.70499 4.37003 3.77583 8.28961 2.12749C9.30544 1.70583 9.82294 2.01249 10.0434 2.23291C10.2542 2.44374 10.5513 2.95166 10.1296 3.91958C9.69836 4.91624 9.48753 5.97041 9.48753 7.06291C9.49711 9.01791 10.2638 10.8292 11.5096 12.2187C9.75586 13.6179 8.62503 15.7837 8.62503 18.2083Z" fill="#292D32"/>
+                  <path opacity="0.4" d="M20.3262 16.9817C18.4287 19.5596 15.4196 21.0737 12.2092 21.0737C12.0558 21.0737 11.9025 21.0642 11.7492 21.0546C10.7908 21.0162 9.86125 20.8342 8.97958 20.5275C8.74958 19.7992 8.625 19.0133 8.625 18.2083C8.625 15.7837 9.75583 13.6179 11.5096 12.2188C12.9183 13.8 14.9404 14.8254 17.1733 14.9212C17.7771 14.95 18.3808 14.9021 18.975 14.7967C20.0483 14.605 20.4796 15.0075 20.6329 15.2663C20.7958 15.525 20.9683 16.0904 20.3262 16.9817Z" fill="#292D32"/>
+                  </svg>
+              </div>
+              <div id="lightMode" class="dot absolute right-1 top-1 w-6 h-6 rounded-full grid place-items-center transition opacity-0">
+                <svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path opacity="0.4" d="M11.5 18.2083C15.2049 18.2083 18.2084 15.2049 18.2084 11.5C18.2084 7.79509 15.2049 4.79167 11.5 4.79167C7.79511 4.79167 4.79169 7.79509 4.79169 11.5C4.79169 15.2049 7.79511 18.2083 11.5 18.2083Z" fill="#FFB800"/>
+                  <path d="M11.5 22.0033C10.9729 22.0033 10.5416 21.6104 10.5416 21.0833V21.0067C10.5416 20.4796 10.9729 20.0483 11.5 20.0483C12.0271 20.0483 12.4583 20.4796 12.4583 21.0067C12.4583 21.5337 12.0271 22.0033 11.5 22.0033ZM18.3425 19.3008C18.0933 19.3008 17.8537 19.205 17.6621 19.0229L17.5375 18.8983C17.1637 18.5246 17.1637 17.9208 17.5375 17.5471C17.9112 17.1733 18.515 17.1733 18.8887 17.5471L19.0133 17.6717C19.3871 18.0454 19.3871 18.6492 19.0133 19.0229C18.8312 19.205 18.5916 19.3008 18.3425 19.3008ZM4.65748 19.3008C4.40831 19.3008 4.16873 19.205 3.97706 19.0229C3.60331 18.6492 3.60331 18.0454 3.97706 17.6717L4.10165 17.5471C4.4754 17.1733 5.07915 17.1733 5.4529 17.5471C5.82665 17.9208 5.82665 18.5246 5.4529 18.8983L5.32831 19.0229C5.14623 19.205 4.89706 19.3008 4.65748 19.3008ZM21.0833 12.4583H21.0066C20.4796 12.4583 20.0483 12.0271 20.0483 11.5C20.0483 10.9729 20.4796 10.5417 21.0066 10.5417C21.5337 10.5417 22.0033 10.9729 22.0033 11.5C22.0033 12.0271 21.6104 12.4583 21.0833 12.4583ZM1.99331 12.4583H1.91665C1.38956 12.4583 0.958313 12.0271 0.958313 11.5C0.958313 10.9729 1.38956 10.5417 1.91665 10.5417C2.44373 10.5417 2.91331 10.9729 2.91331 11.5C2.91331 12.0271 2.5204 12.4583 1.99331 12.4583ZM18.2179 5.74041C17.9687 5.74041 17.7291 5.64458 17.5375 5.46249C17.1637 5.08874 17.1637 4.48499 17.5375 4.11124L17.6621 3.98666C18.0358 3.61291 18.6396 3.61291 19.0133 3.98666C19.3871 4.36041 19.3871 4.96416 19.0133 5.33791L18.8887 5.46249C18.7066 5.64458 18.4671 5.74041 18.2179 5.74041ZM4.78206 5.74041C4.5329 5.74041 4.29331 5.64458 4.10165 5.46249L3.97706 5.32833C3.60331 4.95458 3.60331 4.35083 3.97706 3.97708C4.35081 3.60333 4.95456 3.60333 5.32831 3.97708L5.4529 4.10166C5.82665 4.47541 5.82665 5.07916 5.4529 5.45291C5.27081 5.64458 5.02165 5.74041 4.78206 5.74041ZM11.5 2.91333C10.9729 2.91333 10.5416 2.52041 10.5416 1.99333V1.91666C10.5416 1.38958 10.9729 0.958328 11.5 0.958328C12.0271 0.958328 12.4583 1.38958 12.4583 1.91666C12.4583 2.44374 12.0271 2.91333 11.5 2.91333Z" fill="#FFB800"/>
+                  </svg>
+              </div>
+            </div>
+          </label>
+        </div>
+        
+  
+        <div id="openButton" class="md:hidden">
+          <img src="img/Group 18.png" alt="" srcset="">
+        </div>
+      </div>
+      <ul id="slideMenu" class="transition-all absolute md:static top-0 left-[-100%] flex flex-col md:flex-row md:justify-between z-20 md:z-0 w-screen md:w-[400px] md:h-9 h-screen bg-white  text-black">
+        <div id="closeButton" class=" flex justify-end mr-5 mt-5 mb-5 md:hidden">
+          <img class="p-2 rounded-lg hover:bg-gray-200" src="img/Group 17.png" alt="" srcset="">
+        </div>
+        <a id="projectButt" href="#projects"><li class="hover:bg-gray-100 py-3 text-xl md:py-1 font-bai capitalize px-4 md:px-1 text-black font-medium"> projects </li></a>
+        <li class="hover:bg-gray-100 py-3 text-xl md:py-1 font-bai capitalize px-4 md:px-1 text-black font-medium">skills</li>
+          <button class="hover:bg-white group flex items-center justify-center hover:text-black hover:border-mainColor hover:border-2 capitalize w-[196px] h-[45px] bg-mainColor self-center md:self-end text-xl text-white font-bai font-medium mt-10 md:mt-0">download cv 
+            <svg class="fill-white group-hover:fill-black " width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M20.33 3.67C20.1408 3.48217 19.9035 3.35012 19.6442 3.28837C19.3849 3.22663 19.1135 3.23757 18.86 3.32L4.23 8.2C3.95867 8.28597 3.71891 8.45043 3.54099 8.67259C3.36307 8.89476 3.25498 9.16466 3.23037 9.44822C3.20576 9.73178 3.26573 10.0163 3.40271 10.2658C3.5397 10.5153 3.74754 10.7186 4 10.85L10.07 13.85L13.07 19.94C13.1906 20.1784 13.3751 20.3785 13.6029 20.518C13.8307 20.6575 14.0929 20.7309 14.36 20.73H14.46C14.7461 20.7089 15.0192 20.6023 15.2439 20.424C15.4686 20.2456 15.6345 20.0038 15.72 19.73L20.67 5.14C20.7584 4.88793 20.7734 4.61594 20.7132 4.3557C20.653 4.09545 20.5201 3.85766 20.33 3.67ZM4.85 9.58L17.62 5.32L10.53 12.41L4.85 9.58ZM14.43 19.15L11.59 13.47L18.68 6.38L14.43 19.15Z" fill=""/>
+            </svg>
+             </button>
+      </ul>
+  </nav>
+
+  <header class="w-full h-[312px] flex flex-col md:flex-row-reverse justify-evenly items-center px-4 md:px-[50px] lg:px-[100px] xl:px-[200px] mt-32">
+    <div class=" w-120 md:w-[200px] md:h-[200px] h-120 flex items-center justify-center animate-bounce bg-">
+      <img class="p-[20px] md:p-[22px] rounded-full bg-mainColor" src="img/Ellipse 2.png" alt="" srcset="">
+    </div>
+    <div class="text-center w-full">
+      <div class="flex w-full text-center items-center justify-center">
+        <h2 class="font-bai text-xl md:text-2xl font-bold capitalize text-mainColor">hi i'm preye  </h2>
+        <img class="" src="img/work button.png" alt="" srcset="">
+      </div>
+      <p class="font-bai text-sm md:text-lg font-normal capitalize">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+  </header>
+
+  <section class="w-full h-fit flex flex-col md:flex-row items-center justify-evenly px-4 md:px-[50px] lg:px-[100px] xl:px-[200px]">
+    <div>
+      <img src="img/interactive online work environment and digital workspace.png" alt="" srcset="">
+    </div>
+    <div class="text-center w-full">
+      <h2 class="font-bai text-xl md:text-2xl font-bold capitalize text-mainColor" >about me</h2>
+      <p class="font-bai text-sm md:text-lg font-normal capitalize">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+  </section>
+
+  <section class="w-ful h-[314px] flex flex-col md:flex-row items-center justify-evenly px-4 md:px-[50px] lg:px-[100px] xl:px-[200px] mt-10">
+    <div class="ml-2 md:ml-0 w-full">
+      <p class="font-bai text-sm md:text-lg font-normal capitalize">
+        <strong class="text-mainColor">skills:</strong>  html, css, JavaScript, bootstrap, tailwind css, figma, adobe xd, usability studies, lo-fi prototype, hi-fi prototype, user research, wireframing.
+      </p>
+    </div>
+    <div class="ml-2 md:ml-0 w-full">
+      <p class="font-bai text-sm md:text-lg font-normal capitalize">
+       <strong class="text-mainColor">experience:</strong>  html, css, JavaScript, bootstrap, tailwind css, figma, adobe xd, usability studies, lo-fi prototype, hi-fi prototype, user research, wireframing.
+      </p>
+    </div>
+  </section>
+
+  <section class="w-full flex flex-col gap-4 p-4 md:px-[50px] lg:px-[100px] xl:px-[200px]">
+    <h1 class="w-full md:col-span-2 font-bai text-xl md:text-2xl font-bold capitalize text-mainColor p-4 text-center">services</h1>
+    <div class="w-full flex items-center flex-col md:justify-evenly md:flex-row">
+      <div class="p-4">
+        <p class="font-bai text-sm capitalize md:text-xl text-mainColor font-semibold">ux design</p>
+        <div class="w-[289px] h-[318px] border border-gray-300 rounded-md bg-white"></div>
+      </div>
+      <div class="p-4">
+        <p class="font-bai text-sm capitalize md:text-xl text-mainColor font-semibold">frontend development</p>
+        <div class="w-[289px] h-[318px] border border-gray-300 rounded-md bg-white"></div>
+      </div>
+    </div>
+  </section>
+
+  <div  class="w-full flex flex-col gap-4 p-4 md:px-[50px] lg:px-[100px] xl:px-[200px]">
+    <h1 id="projects" class="w-full md:col-span-2 font-bai text-xl md:text-2xl font-bold capitalize text-mainColor p-4 text-center md:text-left">projects</h1>
+    <div class="w-[240px] flex justify-between ml-[30px]">
+      <p class=" px-[10px] py-[5px] bg-mainColor text-white text-sm font-bai capitalize rounded-2xl flex justify-center items-center">All</p>
+      <p class=" px-[10px] py-[5px] border border-gray-200 text-black text-sm font-bai capitalize rounded-2xl flex justify-center items-center"> ux design</p>
+      <p class=" px-[10px] py-[5px] border border-gray-200 text-black text-sm font-bai capitalize rounded-2xl flex justify-center items-center">frontend dev</p>
+    </div>
+    <div class="w-full flex items-center flex-col gap-6 md:justify-evenly md:flex-row">
+      <div class="p-4 w-[289px]  h-[375px]  bg-white border rounded-md border-gray-300 flex flex-col justify-between">
+        <div id="projectImage" class="w-[270px]  h-[200px]  border  bg-gray-300 self-center"></div>
+        <p class="font-bai text-sm font-medium text-black capitalize">project name</p>
+        <p class="text-black font-bai font-normal text-xs">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <div class="flex w-full bg-white justify-between capitalize font-bai">
+          <div class="flex">
+            <img src="img/Vector.png" alt="" srcset="">
+            <p>view demo</p>
+          </div>
+          <div class="flex justify-evenly">
+            <p>case study</p>
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M20.33 3.67C20.1408 3.48217 19.9035 3.35012 19.6442 3.28837C19.3849 3.22663 19.1135 3.23757 18.86 3.32L4.23 8.2C3.95867 8.28597 3.71891 8.45043 3.54099 8.67259C3.36307 8.89476 3.25498 9.16466 3.23037 9.44822C3.20576 9.73178 3.26573 10.0163 3.40271 10.2658C3.5397 10.5153 3.74754 10.7186 4 10.85L10.07 13.85L13.07 19.94C13.1906 20.1784 13.3751 20.3785 13.6029 20.518C13.8307 20.6575 14.0929 20.7309 14.36 20.73H14.46C14.7461 20.7089 15.0192 20.6023 15.2439 20.424C15.4686 20.2456 15.6345 20.0038 15.72 19.73L20.67 5.14C20.7584 4.88793 20.7734 4.61594 20.7132 4.3557C20.653 4.09545 20.5201 3.85766 20.33 3.67ZM4.85 9.58L17.62 5.32L10.53 12.41L4.85 9.58ZM14.43 19.15L11.59 13.47L18.68 6.38L14.43 19.15Z" fill="black"/>
+              </svg>
+          </div>
+        </div>
+      </div>
+      <div class="p-4 w-[289px]  h-[375px]  bg-white border rounded-md border-gray-300 flex flex-col justify-between">
+          <div id="projectImage" class="w-[270px]  h-[200px]  border  bg-gray-300 self-center"></div>
+          <p class="font-bai text-sm font-medium text-black capitalize">project name</p>
+          <p class="text-black font-bai font-normal text-xs">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <div class="flex w-full bg-white justify-between capitalize font-bai">
+            <div class="flex">
+              <img src="img/Vector.png" alt="" srcset="">
+              <p>view demo</p>
+            </div>
+            <div class="flex justify-evenly">
+              <p>case study</p>
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M20.33 3.67C20.1408 3.48217 19.9035 3.35012 19.6442 3.28837C19.3849 3.22663 19.1135 3.23757 18.86 3.32L4.23 8.2C3.95867 8.28597 3.71891 8.45043 3.54099 8.67259C3.36307 8.89476 3.25498 9.16466 3.23037 9.44822C3.20576 9.73178 3.26573 10.0163 3.40271 10.2658C3.5397 10.5153 3.74754 10.7186 4 10.85L10.07 13.85L13.07 19.94C13.1906 20.1784 13.3751 20.3785 13.6029 20.518C13.8307 20.6575 14.0929 20.7309 14.36 20.73H14.46C14.7461 20.7089 15.0192 20.6023 15.2439 20.424C15.4686 20.2456 15.6345 20.0038 15.72 19.73L20.67 5.14C20.7584 4.88793 20.7734 4.61594 20.7132 4.3557C20.653 4.09545 20.5201 3.85766 20.33 3.67ZM4.85 9.58L17.62 5.32L10.53 12.41L4.85 9.58ZM14.43 19.15L11.59 13.47L18.68 6.38L14.43 19.15Z" fill="black"/>
+                </svg>                
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+
+    <form class="pt-24 flex flex-col items-center w-full h-[500px] justify-between md:px-[50px] lg:px-[100px] xl:px-[200px]" action="">
+      <h1 id="projects" class="w-full md:col-span-2 font-bai text-xl md:text-2xl font-bold capitalize text-mainColor p-4  text-center md:text-left">contact me </h1>
+      <div class="w-full h-[130px] md:h-[51px] flex items-center flex-col md:flex-row justify-evenly">
+        <input placeholder="fullname" class="outline-mainColor w-[345px] h-[54px] border rounded-md placeholder:capitalize placeholder:font-bai placeholder:text-mainColor md:w-full md:mr-4" type="text">
+        <input placeholder="email" class="outline-mainColor w-[345px] h-[54px] border rounded-md placeholder:capitalize placeholder:font-bai placeholder:text-mainColor md:w-full" type="text">
+      </div>
+      <input placeholder="subject" class="outline-mainColor w-[345px] h-[54px] border rounded-md placeholder:capitalize placeholder:font-bai placeholder:text-mainColor md:w-full" type="text">
+      <input placeholder="message" class="outline-mainColor w-[345px] h-[54px] border rounded-md placeholder:capitalize placeholder:font-bai placeholder:text-mainColor md:w-full" type="text">
+      <button class="hover:bg-white hover:text-black hover:border-mainColor hover:border-2 capitalize w-[196px] h-[45px] bg-mainColor self-center text-xl text-white font-bai font-medium mt-10 md:mt-0 flex justify-center items-center group">send message 
+        <svg class="group-hover:fill-black fill-white" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M20.33 3.67C20.1408 3.48217 19.9035 3.35012 19.6442 3.28837C19.3849 3.22663 19.1135 3.23757 18.86 3.32L4.23 8.2C3.95867 8.28597 3.71891 8.45043 3.54099 8.67259C3.36307 8.89476 3.25498 9.16466 3.23037 9.44822C3.20576 9.73178 3.26573 10.0163 3.40271 10.2658C3.5397 10.5153 3.74754 10.7186 4 10.85L10.07 13.85L13.07 19.94C13.1906 20.1784 13.3751 20.3785 13.6029 20.518C13.8307 20.6575 14.0929 20.7309 14.36 20.73H14.46C14.7461 20.7089 15.0192 20.6023 15.2439 20.424C15.4686 20.2456 15.6345 20.0038 15.72 19.73L20.67 5.14C20.7584 4.88793 20.7734 4.61594 20.7132 4.3557C20.653 4.09545 20.5201 3.85766 20.33 3.67ZM4.85 9.58L17.62 5.32L10.53 12.41L4.85 9.58ZM14.43 19.15L11.59 13.47L18.68 6.38L14.43 19.15Z" fill=""/>
+        </svg>
+        </button>
+    </form>
+
+    <footer class="mt-10 bg-black w-full flex flex-col items-center justify-center h-[145px]">
+      <p class="font-bai text-xs text-white">preyealexander731@gmail.com</p>
+      <div class="flex justify-between">
+        <img src="img/LinkedIn 2.png" alt="">
+        <img src="img/GitHub.png" alt="">
+        <img src="img/TwitterX.png" alt="">
+        <img src="" alt="">
+      </div>
+      <p class="font-bai text-xs text-white">copyright@preyealexander731@gmail.com</p>
+    </footer>
+</body>
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        fontFamily: {
+          'mon': ['"Montserrat"', 'sans-serif',],
+          'bai': ['"Bai Jamjuree"', 'sans-serif',],
+        },
+        colors: {
+          mainColor: '#3F60D3',
+        }
+      }
+    }
+  }
+</script>
+<script src="script.js"></script>
+</html>
