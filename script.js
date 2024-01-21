@@ -62,3 +62,19 @@ if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.match
         loader.style.display = 'none'; 
     }, 2000);
   })
+
+
+let selectorArray = document.querySelectorAll('.selector')
+selectorArray.forEach(button =>{
+    button.addEventListener('click', () => {
+        // Change the color of the clicked button
+        selectorArray.forEach(btn =>{
+                // Change the color of the clicked button
+                btn.style.backgroundColor = '#fff';
+                btn.style.color = '#000'
+        })
+
+        button.style.backgroundColor = '#3F60D3';
+        button.style.color = '#fff';
+      });
+})
