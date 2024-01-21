@@ -4,8 +4,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@200;300;400;500;700&family=Montserrat:wght@100;200;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <title>1%portfolio</title>
 </head>
 <body class="bg-white">
@@ -28,8 +30,8 @@
     </div>
   </div>
   <nav class="bg-white w-full h-[5.5rem] z-10 flex items-center fixed top-0 justify-between md:justify-between px-4 md:px-[50px] lg:px-[100px] xl:px-[200px] ">
-      <div id="logo" class="bg-mainColor rounded-full w-16 h-16 grid place-items-center">
-        <h1 class="text-3xl font-bai text-white font-medium">1%</h1>
+      <div id="logo" class=" rounded-full w-16 h-16 grid place-items-center">
+        <h1 class="text-2xl md:text-3xl font-bai text-black font-semibold">1percent</h1>
       </div>
 
       <div class="flex w-fit md:hidden justify-between gap-5 items-center">
@@ -61,17 +63,67 @@
           <img src="img/Group 18.png" alt="" srcset="">
         </div>
       </div>
-      <ul id="slideMenu" class="transition-all absolute md:static top-0 left-[-100%] flex flex-col md:flex-row md:justify-between z-20 md:z-0 w-screen md:w-[400px] md:h-9 h-screen bg-white  text-black">
+      <ul id="slideMenu" class="transition-all absolute md:static top-0 left-[-100%] flex flex-col md:flex-row md:justify-between z-20 md:z-0 w-screen md:w-[450px] md:h-9 h-screen bg-white  text-black">
         <div id="closeButton" class=" flex justify-end mr-5 mt-5 mb-5 md:hidden">
           <img class="p-2 rounded-lg hover:bg-gray-200" src="img/Group 17.png" alt="" srcset="">
         </div>
-        <a id="projectButt" href="#projects"><li class="hover:bg-gray-100 py-3 text-xl md:py-1 font-bai capitalize px-4 md:px-1 text-black font-medium"> projects </li></a>
-        <a id="projectButt" href="#skills"><li class="hover:bg-gray-100 py-3 text-xl md:py-1 font-bai capitalize px-4 md:px-1 text-black font-medium">skills</li></a>
-          <button class="hover:bg-white group flex items-center justify-center hover:text-black hover:border-mainColor hover:border-2 capitalize w-[196px] h-[45px] bg-mainColor self-center md:self-end text-xl text-white font-bai font-medium mt-10 md:mt-0">download cv 
+        <a id="projectButt" href="#projects"><li class="hover:bg-gray-100 py-3 text-xl md:text-lg md:py-1 font-bai capitalize px-4 md:px-1 text-black font-medium"> projects </li></a>
+        <a id="projectButt" href="#skills"><li class="hover:bg-gray-100 py-3 text-xl md:text-lg md:py-1 font-bai capitalize px-4 md:px-1 text-black font-medium">skills</li></a>
+        <a id="projectButt" href="#contact"><li class="hover:bg-gray-100 py-3 text-xl md:text-lg md:py-1 font-bai capitalize px-4 md:px-1 text-black font-medium">contact me</li></a>
+          <!-- <button class="hover:bg-white group flex items-center justify-center hover:text-black hover:border-mainColor hover:border-2 capitalize w-[196px] h-[45px] bg-mainColor self-center md:self-end text-xl text-white font-bai font-medium mt-10 md:mt-0">download cv 
             <svg class="fill-white group-hover:fill-black " width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M20.33 3.67C20.1408 3.48217 19.9035 3.35012 19.6442 3.28837C19.3849 3.22663 19.1135 3.23757 18.86 3.32L4.23 8.2C3.95867 8.28597 3.71891 8.45043 3.54099 8.67259C3.36307 8.89476 3.25498 9.16466 3.23037 9.44822C3.20576 9.73178 3.26573 10.0163 3.40271 10.2658C3.5397 10.5153 3.74754 10.7186 4 10.85L10.07 13.85L13.07 19.94C13.1906 20.1784 13.3751 20.3785 13.6029 20.518C13.8307 20.6575 14.0929 20.7309 14.36 20.73H14.46C14.7461 20.7089 15.0192 20.6023 15.2439 20.424C15.4686 20.2456 15.6345 20.0038 15.72 19.73L20.67 5.14C20.7584 4.88793 20.7734 4.61594 20.7132 4.3557C20.653 4.09545 20.5201 3.85766 20.33 3.67ZM4.85 9.58L17.62 5.32L10.53 12.41L4.85 9.58ZM14.43 19.15L11.59 13.47L18.68 6.38L14.43 19.15Z" fill=""/>
             </svg>
-             </button>
+          </button> -->
+          <div class="flex items-center justify-center cursor-pointer">
+            <div
+              class="relative inline-flex items-center justify-start py-3 pl-4 pr-12 overflow-hidden font-semibold shadow text-indigo-600 transition-all duration-150 ease-in-out rounded hover:pl-10 hover:pr-6 bg-gray-50 dark:bg-gray-700 dark:text-white dark:hover:text-gray-200 dark:shadow-none group"
+            >
+              <span
+                class="absolute bottom-0 left-0 w-full h-1 transition-all duration-150 ease-in-out bg-indigo-600 group-hover:h-full"
+              ></span>
+              <span
+                class="absolute right-0 pr-4 duration-200 ease-out group-hover:translate-x-12"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  fill="none"
+                  class="w-5 h-5 text-green-400"
+                >
+                  <path
+                    d="M14 5l7 7m0 0l-7 7m7-7H3"
+                    stroke-width="2"
+                    stroke-linejoin="round"
+                    stroke-linecap="round"
+                  ></path>
+                </svg>
+              </span>
+              <span
+                class="absolute left-0 pl-2.5 -translate-x-12 group-hover:translate-x-0 ease-out duration-200"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  fill="none"
+                  class="w-5 h-5 text-green-400"
+                >
+                  <path
+                    d="M14 5l7 7m0 0l-7 7m7-7H3"
+                    stroke-width="2"
+                    stroke-linejoin="round"
+                    stroke-linecap="round"
+                  ></path>
+                </svg>
+              </span>
+              <span
+                class="font-bai  md:text-lg capitalize relative w-full text-left transition-colors duration-200 ease-in-out group-hover:text-white dark:group-hover:text-gray-200"
+                >download cv</span
+              >
+            </div>
+          </div>
       </ul>
   </nav>
 
@@ -81,7 +133,7 @@
     </div>
     <div class="text-center w-full">
       <div class="flex w-full text-center items-center justify-center">
-        <h2 class="font-bai text-xl md:text-2xl font-bold capitalize text-mainColor">hi i'm preye  </h2>
+        <h2 class="font-bai text-xl md:text-2xl font-bold capitalize text-gray-800">hi i'm preye  </h2>
         <img class="" src="img/work button.png" alt="" srcset="">
       </div>
       <p class="font-bai text-sm md:text-lg font-normal capitalize">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -92,75 +144,101 @@
     <div>
       <img class="md:w-[55rem]" src="img/interactive online work environment and digital workspace.png" alt="" srcset="">
     </div>
-    <div class="text-center w-full">
-      <h2 class="font-bai text-xl md:text-2xl font-bold capitalize text-mainColor" >about me</h2>
+    <div
+      data-aos="fade-in"
+      data-aos-duration="2000"
+      data-aos-once="true" 
+     class="text-center w-full">
+      <h2 class="font-bai text-xl md:text-2xl font-bold capitalize text-gray-800" >about me</h2>
       <p class="font-bai text-sm md:text-lg font-normal capitalize">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
     </div>
   </section>
 
   <section id="skills" class="w-ful h-[314px] flex flex-col md:flex-row items-center justify-evenly px-4 md:px-[50px] lg:px-[100px] xl:px-[200px] mt-10">
-    <div class="ml-2 md:ml-0 w-full md:mr-10">
+    <div
+      data-aos="fade-in"
+      data-aos-duration="2000"
+      data-aos-once="true" 
+    class="ml-2 md:ml-0 w-full md:mr-10">
       <p class="font-bai text-sm md:text-lg font-normal capitalize">
-        <strong class="text-mainColor">skills:</strong>  html, css, JavaScript, bootstrap, tailwind css, figma, adobe xd, usability studies, lo-fi prototype, hi-fi prototype, user research, wireframing.
+        <strong class="text-gray-800">skills:</strong>  html, css, JavaScript, bootstrap, tailwind css, figma, adobe xd, usability studies, lo-fi prototype, hi-fi prototype, user research, wireframing.
       </p>
     </div>
-    <div class="ml-2 md:ml-0 w-full">
+    <div
+    data-aos="fade-in"
+      data-aos-duration="2000"
+      data-aos-once="true" 
+    class="ml-2 md:ml-0 w-full">
       <p class="font-bai text-sm md:text-lg font-normal capitalize">
-       <strong class="text-mainColor">experience:</strong>  html, css, JavaScript, bootstrap, tailwind css, figma, adobe xd, usability studies, lo-fi prototype, hi-fi prototype, user research, wireframing.
+       <strong class="text-gray-800">experience:</strong>  html, css, JavaScript, bootstrap, tailwind css, figma, adobe xd, usability studies, lo-fi prototype, hi-fi prototype, user research, wireframing.
       </p>
     </div>
   </section>
 
   <section class="w-full flex flex-col gap-4 p-4 md:px-[50px] lg:px-[100px] xl:px-[200px]">
-    <h1 class="w-full md:col-span-2 font-bai text-xl md:text-2xl font-bold capitalize text-mainColor p-4 text-center">services</h1>
+    <h1 class="w-full md:col-span-2 font-bai text-xl md:text-2xl font-bold capitalize text-gray-800 p-4 text-center">services</h1>
     <div class="w-full flex items-center flex-col md:justify-evenly md:flex-row">
       <div class="p-4">
-        <p class="font-bai text-sm capitalize md:text-xl text-mainColor font-semibold">ux design</p>
-        <div class="w-[289px] h-[318px] border border-gray-300 rounded-md bg-white md:w-[300px] md:h-[400px] xl:w-[350px] xl:h-[420px]"></div>
+        <p class="font-bai text-sm capitalize md:text-xl text-gray-800 font-semibold">ux design</p>
+        <div
+        data-aos="zoom-in"
+      data-aos-duration="1200"
+      data-aos-once="true" 
+        class="w-[289px] h-[318px] border border-gray-300 rounded-md bg-white md:w-[300px] md:h-[400px] xl:w-[350px] xl:h-[420px]"></div>
       </div>
       <div class="p-4">
-        <p class="font-bai text-sm capitalize md:text-xl text-mainColor font-semibold">frontend development</p>
-        <div class="w-[289px] h-[318px] border border-gray-300 rounded-md bg-white md:w-[300px] md:h-[400px] xl:w-[350px] xl:h-[420px]"></div>
+        <p class="font-bai text-sm capitalize md:text-xl text-gray-800 font-semibold">frontend development</p>
+        <div
+        data-aos="zoom-in"
+      data-aos-duration="1200"
+      data-aos-once="true" 
+        class="w-[289px] h-[318px] border border-gray-300 rounded-md bg-white md:w-[300px] md:h-[400px] xl:w-[350px] xl:h-[420px]"></div>
       </div>
     </div>
   </section>
 
   <div  class="w-full flex flex-col gap-4 p-4 md:px-[50px] lg:px-[100px] xl:px-[200px]">
-    <h1 id="projects" class="w-full md:col-span-2 font-bai text-xl md:text-2xl font-bold capitalize text-mainColor p-4 text-center md:text-left">projects</h1>
+    <h1 id="projects" class="w-full md:col-span-2 font-bai text-xl md:text-2xl font-bold capitalize text-gray-800 p-4 text-center md:text-left">projects</h1>
     <div class="w-[240px] xl:w-[270px] flex justify-between ml-[30px]">
       <p class=" selector px-[10px] py-[5px] bg-mainColor border border-gray-200 text-white text-sm font-bai capitalize rounded-2xl flex justify-center items-center xl:text-base">All</p>
       <p class=" selector px-[10px] py-[5px] border border-gray-200 text-black text-sm font-bai capitalize rounded-2xl flex justify-center items-center xl:text-base"> ux design</p>
       <p class=" selector px-[10px] py-[5px] border border-gray-200 text-black text-sm font-bai capitalize rounded-2xl flex justify-center items-center xl:text-base">frontend dev</p>
     </div>
     <div class="w-full flex items-center flex-col gap-6 md:justify-evenly md:flex-row">
-      <div class="p-4 w-[289px]  h-[375px]  bg-white border rounded-md border-gray-300 flex flex-col justify-between md:w-[300px] md:h-[400px] xl:w-[350px] xl:h-[420px]">
+      <div data-aos="fade-right"
+           data-aos-duration="1000"
+           data-aos-once="true"
+         class="p-4 w-[289px]  h-[375px]  bg-white border rounded-md border-gray-300 flex flex-col justify-between md:w-[300px] md:h-[400px] xl:w-[350px] xl:h-[420px]">
         <div id="projectImage" class="w-[270px]  h-[200px] md:w-[280px] md:h-[220px] xl:w-[330px] xl:h-[230px]  border  bg-gray-300 self-center"></div>
-        <p class="font-bai text-sm font-medium text-black capitalize">project name</p>
+        <p class="font-bai text-sm font-semibold text-black capitalize">project name</p>
         <p class="text-black font-bai font-normal text-xs">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
         <div class="flex w-full bg-white justify-between capitalize font-bai">
           <div class="flex justify-evenly">
             <img class="w-[1.1rem] h-[1.3rem]" src="img/Vector.png" alt="" srcset="">
-            <p>view demo</p>
+            <p class="text-sm md:text-base">view demo</p>
           </div>
           <div class="flex justify-evenly">
-            <p>case study</p>
+            <p class="text-sm md:text-base">case study</p>
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M20.33 3.67C20.1408 3.48217 19.9035 3.35012 19.6442 3.28837C19.3849 3.22663 19.1135 3.23757 18.86 3.32L4.23 8.2C3.95867 8.28597 3.71891 8.45043 3.54099 8.67259C3.36307 8.89476 3.25498 9.16466 3.23037 9.44822C3.20576 9.73178 3.26573 10.0163 3.40271 10.2658C3.5397 10.5153 3.74754 10.7186 4 10.85L10.07 13.85L13.07 19.94C13.1906 20.1784 13.3751 20.3785 13.6029 20.518C13.8307 20.6575 14.0929 20.7309 14.36 20.73H14.46C14.7461 20.7089 15.0192 20.6023 15.2439 20.424C15.4686 20.2456 15.6345 20.0038 15.72 19.73L20.67 5.14C20.7584 4.88793 20.7734 4.61594 20.7132 4.3557C20.653 4.09545 20.5201 3.85766 20.33 3.67ZM4.85 9.58L17.62 5.32L10.53 12.41L4.85 9.58ZM14.43 19.15L11.59 13.47L18.68 6.38L14.43 19.15Z" fill="black"/>
               </svg>
           </div>
         </div>
       </div>
-      <div class="p-4 w-[289px]  h-[375px]  bg-white border rounded-md border-gray-300 flex flex-col justify-between md:w-[300px] md:h-[400px] xl:w-[350px] xl:h-[420px]">
+      <div data-aos="fade-left"
+           data-aos-duration="1000"
+           data-aos-once="true"
+         class="p-4 w-[289px]  h-[375px]  bg-white border rounded-md border-gray-300 flex flex-col justify-between md:w-[300px] md:h-[400px] xl:w-[350px] xl:h-[420px]">
           <div id="projectImage" class="w-[270px]  h-[200px] md:w-[280px] md:h-[220px] xl:w-[330px] xl:h-[230px]  border  bg-gray-300 self-center"></div>
-          <p class="font-bai text-sm font-medium text-black capitalize">project name</p>
+          <p class="font-bai text-sm font-semibold text-black capitalize">project name</p>
           <p class="text-black font-bai font-normal text-xs">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
           <div class="flex w-full bg-white justify-between capitalize font-bai">
             <div class="flex">
               <img class="w-[1.1rem] h-[1.3rem]"  src="img/Vector.png" alt="" srcset="">
-              <p>view demo</p>
+              <p class="text-sm md:text-base">view demo</p>
             </div>
             <div class="flex justify-evenly">
-              <p>case study</p>
+              <p class="text-sm md:text-base">case study</p>
               <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M20.33 3.67C20.1408 3.48217 19.9035 3.35012 19.6442 3.28837C19.3849 3.22663 19.1135 3.23757 18.86 3.32L4.23 8.2C3.95867 8.28597 3.71891 8.45043 3.54099 8.67259C3.36307 8.89476 3.25498 9.16466 3.23037 9.44822C3.20576 9.73178 3.26573 10.0163 3.40271 10.2658C3.5397 10.5153 3.74754 10.7186 4 10.85L10.07 13.85L13.07 19.94C13.1906 20.1784 13.3751 20.3785 13.6029 20.518C13.8307 20.6575 14.0929 20.7309 14.36 20.73H14.46C14.7461 20.7089 15.0192 20.6023 15.2439 20.424C15.4686 20.2456 15.6345 20.0038 15.72 19.73L20.67 5.14C20.7584 4.88793 20.7734 4.61594 20.7132 4.3557C20.653 4.09545 20.5201 3.85766 20.33 3.67ZM4.85 9.58L17.62 5.32L10.53 12.41L4.85 9.58ZM14.43 19.15L11.59 13.47L18.68 6.38L14.43 19.15Z" fill="black"/>
                 </svg>                
@@ -170,19 +248,65 @@
     </div>
   </div>
 
-    <form class="pt-24 flex flex-col items-center w-full h-[500px] justify-between md:px-[50px] lg:px-[100px] xl:px-[200px]" action="">
-      <h1 id="projects" class="w-full md:col-span-2 font-bai text-xl md:text-2xl font-bold capitalize text-mainColor p-4  text-center md:text-left">contact me </h1>
+    <form id="contact" class="pt-24 flex flex-col items-center w-full h-[600px] justify-between md:px-[50px] lg:px-[100px] xl:px-[200px]" action="">
+      <h1 id="projects" class="w-full md:col-span-2 font-bai text-xl md:text-2xl font-bold capitalize text-gray-800 p-4  text-center md:text-left">contact me </h1>
       <div class="w-full h-[130px] md:h-[51px] flex items-center flex-col md:flex-row justify-evenly">
         <input placeholder="fullname" class="outline-mainColor w-[345px] h-[54px] border rounded-md placeholder:capitalize placeholder:font-bai placeholder:text-mainColor md:w-full md:mr-4" type="text">
         <input placeholder="email" class="outline-mainColor w-[345px] h-[54px] border rounded-md placeholder:capitalize placeholder:font-bai placeholder:text-mainColor md:w-full" type="text">
       </div>
       <input placeholder="subject" class="outline-mainColor w-[345px] h-[54px] border rounded-md placeholder:capitalize placeholder:font-bai placeholder:text-mainColor md:w-full" type="text">
       <input placeholder="message" class="outline-mainColor w-[345px] h-[54px] border rounded-md placeholder:capitalize placeholder:font-bai placeholder:text-mainColor md:w-full" type="text">
-      <button class="hover:bg-white hover:text-black hover:border-mainColor hover:border-2 capitalize w-[196px] h-[45px] bg-mainColor self-center text-xl text-white font-bai font-medium mt-10 md:mt-0 flex justify-center items-center group">send message 
-        <svg class="group-hover:fill-black fill-white" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M20.33 3.67C20.1408 3.48217 19.9035 3.35012 19.6442 3.28837C19.3849 3.22663 19.1135 3.23757 18.86 3.32L4.23 8.2C3.95867 8.28597 3.71891 8.45043 3.54099 8.67259C3.36307 8.89476 3.25498 9.16466 3.23037 9.44822C3.20576 9.73178 3.26573 10.0163 3.40271 10.2658C3.5397 10.5153 3.74754 10.7186 4 10.85L10.07 13.85L13.07 19.94C13.1906 20.1784 13.3751 20.3785 13.6029 20.518C13.8307 20.6575 14.0929 20.7309 14.36 20.73H14.46C14.7461 20.7089 15.0192 20.6023 15.2439 20.424C15.4686 20.2456 15.6345 20.0038 15.72 19.73L20.67 5.14C20.7584 4.88793 20.7734 4.61594 20.7132 4.3557C20.653 4.09545 20.5201 3.85766 20.33 3.67ZM4.85 9.58L17.62 5.32L10.53 12.41L4.85 9.58ZM14.43 19.15L11.59 13.47L18.68 6.38L14.43 19.15Z" fill=""/>
-        </svg>
-        </button>
+
+        <div class="w-full h-40 flex items-center justify-center cursor-pointer">
+          <div
+            class="relative inline-flex items-center justify-start py-3 pl-4 pr-12 overflow-hidden font-semibold shadow text-indigo-600 transition-all duration-150 ease-in-out rounded hover:pl-10 hover:pr-6 bg-gray-50 dark:bg-gray-700 dark:text-white dark:hover:text-gray-200 dark:shadow-none group"
+          >
+            <span
+              class="absolute bottom-0 left-0 w-full h-1 transition-all duration-150 ease-in-out bg-indigo-600 group-hover:h-full"
+            ></span>
+            <span
+              class="absolute right-0 pr-4 duration-200 ease-out group-hover:translate-x-12"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                fill="none"
+                class="w-5 h-5 text-green-400"
+              >
+                <path
+                  d="M14 5l7 7m0 0l-7 7m7-7H3"
+                  stroke-width="2"
+                  stroke-linejoin="round"
+                  stroke-linecap="round"
+                ></path>
+              </svg>
+            </span>
+            <span
+              class="absolute left-0 pl-2.5 -translate-x-12 group-hover:translate-x-0 ease-out duration-200"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                fill="none"
+                class="w-5 h-5 text-green-400"
+              >
+                <path
+                  d="M14 5l7 7m0 0l-7 7m7-7H3"
+                  stroke-width="2"
+                  stroke-linejoin="round"
+                  stroke-linecap="round"
+                ></path>
+              </svg>
+            </span>
+            <span
+              class="font-bai capitalize relative w-full text-left transition-colors duration-200 ease-in-out group-hover:text-white dark:group-hover:text-gray-200"
+              >send message</span
+            >
+          </div>
+        </div>
+        
     </form>
 
     <footer class="mt-10 bg-black w-full flex flex-col items-center justify-center h-[145px]">
@@ -211,6 +335,10 @@
       }
     }
   }
+</script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
 </script>
 <script src="script.js"></script>
 </html>

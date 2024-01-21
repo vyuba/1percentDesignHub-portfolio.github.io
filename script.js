@@ -60,7 +60,7 @@ if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.match
   window.addEventListener('load', ()=>{
     setTimeout(() => {
         loader.style.display = 'none'; 
-    }, 2000);
+    }, 50);
   })
 
 
