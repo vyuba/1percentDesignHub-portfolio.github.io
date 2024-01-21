@@ -54,3 +54,11 @@ if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.match
   
   // Whenever the user explicitly chooses to respect the OS preference
   localStorage.removeItem('theme')
+
+
+  let loader = document.querySelector('#preloader');
+  window.addEventListener('load', ()=>{
+    setTimeout(() => {
+        loader.style.display = 'none'; 
+    }, 2000);
+  })
