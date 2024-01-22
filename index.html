@@ -8,6 +8,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@200;300;400;500;700&family=Montserrat:wght@100;200;400;500;600;700&display=swap" rel="stylesheet">
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="./output.css">
   <title>1%portfolio</title>
 </head>
 <body class="bg-white">
@@ -67,9 +68,9 @@
         <div id="closeButton" class=" flex justify-end mr-5 mt-5 mb-5 md:hidden">
           <img class="p-2 rounded-lg hover:bg-gray-200" src="img/Group 17.png" alt="" srcset="">
         </div>
-        <a id="projectButt" href="#projects"><li class="hover:bg-gray-100 py-3 text-xl md:text-lg md:py-1 font-bai capitalize px-4 md:px-1 text-black font-medium"> projects </li></a>
-        <a id="projectButt" href="#skills"><li class="hover:bg-gray-100 py-3 text-xl md:text-lg md:py-1 font-bai capitalize px-4 md:px-1 text-black font-medium">skills</li></a>
-        <a id="projectButt" href="#contact"><li class="hover:bg-gray-100 py-3 text-xl md:text-lg md:py-1 font-bai capitalize px-4 md:px-1 text-black font-medium">contact me</li></a>
+        <a href="#projects"><li onclick="closeSlideMenu()"  class="projectButt hover:bg-gray-100 py-3 text-xl md:text-lg md:py-1 font-bai capitalize px-4 md:px-1 text-black font-medium"> projects </li></a>
+        <a href="#skills"><li  onclick="closeSlideMenu()" class="projectButt hover:bg-gray-100 py-3 text-xl md:text-lg md:py-1 font-bai capitalize px-4 md:px-1 text-black font-medium">skills</li></a>
+        <a href="#contact"><li onclick="closeSlideMenu()"  class="projectButt hover:bg-gray-100 py-3 text-xl md:text-lg md:py-1 font-bai capitalize px-4 md:px-1 text-black font-medium">contact me</li></a>
           <!-- <button class="hover:bg-white group flex items-center justify-center hover:text-black hover:border-mainColor hover:border-2 capitalize w-[196px] h-[45px] bg-mainColor self-center md:self-end text-xl text-white font-bai font-medium mt-10 md:mt-0">download cv 
             <svg class="fill-white group-hover:fill-black " width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M20.33 3.67C20.1408 3.48217 19.9035 3.35012 19.6442 3.28837C19.3849 3.22663 19.1135 3.23757 18.86 3.32L4.23 8.2C3.95867 8.28597 3.71891 8.45043 3.54099 8.67259C3.36307 8.89476 3.25498 9.16466 3.23037 9.44822C3.20576 9.73178 3.26573 10.0163 3.40271 10.2658C3.5397 10.5153 3.74754 10.7186 4 10.85L10.07 13.85L13.07 19.94C13.1906 20.1784 13.3751 20.3785 13.6029 20.518C13.8307 20.6575 14.0929 20.7309 14.36 20.73H14.46C14.7461 20.7089 15.0192 20.6023 15.2439 20.424C15.4686 20.2456 15.6345 20.0038 15.72 19.73L20.67 5.14C20.7584 4.88793 20.7734 4.61594 20.7132 4.3557C20.653 4.09545 20.5201 3.85766 20.33 3.67ZM4.85 9.58L17.62 5.32L10.53 12.41L4.85 9.58ZM14.43 19.15L11.59 13.47L18.68 6.38L14.43 19.15Z" fill=""/>
@@ -249,7 +250,7 @@
   </div>
 
     <form id="contact" class="pt-24 flex flex-col items-center w-full h-[600px] justify-between md:px-[50px] lg:px-[100px] xl:px-[200px]" action="">
-      <h1 id="projects" class="w-full md:col-span-2 font-bai text-xl md:text-2xl font-bold capitalize text-gray-800 p-4  text-center md:text-left">contact me </h1>
+      <h1 class="w-full md:col-span-2 font-bai text-xl md:text-2xl font-bold capitalize text-gray-800 p-4  text-center md:text-left">contact me </h1>
       <div class="w-full h-[130px] md:h-[51px] flex items-center flex-col md:flex-row justify-evenly">
         <input placeholder="fullname" class="outline-mainColor w-[345px] h-[54px] border rounded-md placeholder:capitalize placeholder:font-bai placeholder:text-mainColor md:w-full md:mr-4" type="text">
         <input placeholder="email" class="outline-mainColor w-[345px] h-[54px] border rounded-md placeholder:capitalize placeholder:font-bai placeholder:text-mainColor md:w-full" type="text">
@@ -320,22 +321,8 @@
       <p class="font-bai text-xs text-white">copyright@preyealexander731@gmail.com</p>
     </footer>
 </body>
-<script src="https://cdn.tailwindcss.com"></script>
-<script>
-  tailwind.config = {
-    theme: {
-      extend: {
-        fontFamily: {
-          'mon': ['"Montserrat"', 'sans-serif',],
-          'bai': ['"Bai Jamjuree"', 'sans-serif',],
-        },
-        colors: {
-          mainColor: '#3F60D3',
-        }
-      }
-    }
-  }
-</script>
+<!-- <script src="https://cdn.tailwindcss.com"></script> -->
+
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
   AOS.init();
