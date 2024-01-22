@@ -1,5 +1,6 @@
 const slideOpen = document.querySelector('#openButton');
 const slideClose = document.querySelector('#closeButton');
+const projectButt = document.querySelector('#projectButt');
 const darkMode = document.querySelector('#darkMode');
 const lightMode = document.querySelector('#lightMode');
 const themeContainer = document.querySelector('#themeContainer');
@@ -36,6 +37,7 @@ function closeSlideMenu() {
     slideMenu.style.left = '-100%';
 }
 
+projectButt.addEventListener('click', closeSlideMenu);
 
 // On page load or when changing themes, best to add inline in `head` to avoid FOUC
 if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
@@ -58,7 +60,7 @@ if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.match
   window.addEventListener('load', ()=>{
     setTimeout(() => {
         loader.style.display = 'none'; 
-    }, 1000);
+    }, 50);
   })
 
 
