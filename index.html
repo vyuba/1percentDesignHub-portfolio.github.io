@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="output.css">
   <title>1%portfolio</title>
 </head>
-<body class="bg-white dark:bg-black">
+<body class="bg-white dark:bg-[#191D23]">
   <div id="preloader" class="w-full h-screen z-40 bg-white fixed top-0 overflow-x-hidden flex items-center justify-center">
     <div class="">
       <svg class="float-left" version="1.1" id="L9" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -30,9 +30,9 @@
     <h1 class="font-bold text-xl font-bai">1percent...</h1>
     </div>
   </div>
-  <nav class="bg-white w-full h-[5.5rem] z-10 flex items-center fixed top-0 justify-between md:justify-between px-4 md:px-[50px] lg:px-[100px] xl:px-[200px] ">
+  <nav class="bg-white w-full h-[5.5rem] z-10 flex items-center fixed top-0 justify-between md:justify-between px-4 md:px-[50px] lg:px-[100px] xl:px-[200px] dark:bg-[#191D23] ">
       <div id="logo" class=" rounded-full w-16 h-16 grid place-items-center">
-        <h1 class="text-2xl md:text-3xl font-bai text-black font-semibold">1percent</h1>
+        <h1 class="text-2xl md:text-3xl font-bai text-black font-semibold dark:text-white">1percent</h1>
       </div>
 
       <div class="flex w-fit md:hidden justify-between gap-5 items-center">
@@ -63,13 +63,13 @@
           <img src="img/Group 18.png" alt="" srcset="">
         </div>
       </div>
-      <ul id="slideMenu" class="transition-all absolute md:static top-0 left-[-100%] flex flex-col md:flex-row md:justify-between z-20 md:z-0 w-screen md:w-[450px] md:h-9 h-screen bg-white  text-black">
-        <div id="closeButton" class=" flex justify-end mr-5 mt-5 mb-5 md:hidden">
-          <img class="p-2 rounded-lg hover:bg-gray-200" src="img/Group 17.png" alt="" srcset="">
+      <ul id="slideMenu" class="transition-all absolute md:static top-0 left-[-100%] flex flex-col md:flex-row md:justify-between z-20 md:z-0 w-screen md:w-[450px] md:h-9 h-screen bg-white  text-black  dark:bg-[#191D23]">
+        <div id="closeButton" class=" flex justify-end mr-5 mt-5 mb-5 md:hidden ">
+          <img class="p-2 rounded-lg hover:bg-gray-200 dark:hover:bg-gray-700"  src="img/Group 17.png" alt="" srcset="">
         </div>
-        <a onclick="closeSlideMenu()" id="projectButt" href="#projects"><li class="hover:bg-gray-100 py-3 text-xl md:text-lg md:py-1 font-bai capitalize px-4 md:px-1 text-black font-medium"> projects </li></a>
-        <a onclick="closeSlideMenu()" id="projectButt" href="#skills"><li class="hover:bg-gray-100 py-3 text-xl md:text-lg md:py-1 font-bai capitalize px-4 md:px-1 text-black font-medium">skills</li></a>
-        <a onclick="closeSlideMenu()" id="projectButt" href="#contact"><li class="hover:bg-gray-100 py-3 text-xl md:text-lg md:py-1 font-bai capitalize px-4 md:px-1 text-black font-medium">contact me</li></a>
+        <a onclick="closeSlideMenu()" id="projectButt" href="#projects"><li class="hover:bg-gray-100 dark:hover:bg-gray-700 py-3 text-xl md:text-lg md:py-1 font-bai capitalize px-4 md:px-1 text-black font-medium dark:text-white"> projects </li></a>
+        <a onclick="closeSlideMenu()" id="projectButt" href="#skills"><li class="hover:bg-gray-100 dark:hover:bg-gray-700 py-3 text-xl md:text-lg md:py-1 font-bai capitalize px-4 md:px-1 text-black font-medium dark:text-white">skills</li></a>
+        <a onclick="closeSlideMenu()" id="projectButt" href="#contact"><li class="hover:bg-gray-100 dark:hover:bg-gray-700 py-3 text-xl md:text-lg md:py-1 font-bai capitalize px-4 md:px-1 text-black font-medium dark:text-white">contact me</li></a>
           <!-- <button class="hover:bg-white group flex items-center justify-center hover:text-black hover:border-mainColor hover:border-2 capitalize w-[196px] h-[45px] bg-mainColor self-center md:self-end text-xl text-white font-bai font-medium mt-10 md:mt-0">download cv 
             <svg class="fill-white group-hover:fill-black " width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M20.33 3.67C20.1408 3.48217 19.9035 3.35012 19.6442 3.28837C19.3849 3.22663 19.1135 3.23757 18.86 3.32L4.23 8.2C3.95867 8.28597 3.71891 8.45043 3.54099 8.67259C3.36307 8.89476 3.25498 9.16466 3.23037 9.44822C3.20576 9.73178 3.26573 10.0163 3.40271 10.2658C3.5397 10.5153 3.74754 10.7186 4 10.85L10.07 13.85L13.07 19.94C13.1906 20.1784 13.3751 20.3785 13.6029 20.518C13.8307 20.6575 14.0929 20.7309 14.36 20.73H14.46C14.7461 20.7089 15.0192 20.6023 15.2439 20.424C15.4686 20.2456 15.6345 20.0038 15.72 19.73L20.67 5.14C20.7584 4.88793 20.7734 4.61594 20.7132 4.3557C20.653 4.09545 20.5201 3.85766 20.33 3.67ZM4.85 9.58L17.62 5.32L10.53 12.41L4.85 9.58ZM14.43 19.15L11.59 13.47L18.68 6.38L14.43 19.15Z" fill=""/>
@@ -133,10 +133,10 @@
     </div>
     <div class="text-center w-full">
       <div class="flex w-full text-center items-center justify-center">
-        <h2 class="font-bai text-xl md:text-2xl font-bold capitalize text-gray-800">hi i'm preye  </h2>
+        <h2 class="font-bai text-xl md:text-2xl font-bold capitalize text-gray-800 dark:text-mainColor">hi i'm preye  </h2>
         <img class="" src="img/work button.png" alt="" srcset="">
       </div>
-      <p class="font-bai text-sm md:text-lg font-normal capitalize">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <p class="font-bai text-sm md:text-lg font-normal capitalize dark:text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
     </div>
   </header>
 
@@ -149,8 +149,8 @@
       data-aos-duration="2000"
       data-aos-once="true" 
      class="text-center w-full">
-      <h2 class="font-bai text-xl md:text-2xl font-bold capitalize text-gray-800" >about me</h2>
-      <p class="font-bai text-sm md:text-lg font-normal capitalize">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <h2 class="font-bai text-xl md:text-2xl font-bold capitalize text-gray-800 dark:text-mainColor" >about me</h2>
+      <p class="font-bai text-sm md:text-lg font-normal capitalize dark:text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
     </div>
   </section>
 
@@ -160,8 +160,8 @@
       data-aos-duration="1200"
       data-aos-once="true" 
     class="ml-2 md:ml-0 w-full md:mr-10">
-      <p class="font-bai text-sm md:text-lg font-normal capitalize">
-        <strong class="text-gray-800">skills:</strong>  html, css, JavaScript, bootstrap, tailwind css, figma, adobe xd, usability studies, lo-fi prototype, hi-fi prototype, user research, wireframing.
+      <p class="font-bai text-sm md:text-lg font-normal capitalize dark:text-white">
+        <strong class="text-gray-800 dark:text-mainColor">skills:</strong>  html, css, JavaScript, bootstrap, tailwind css, figma, adobe xd, usability studies, lo-fi prototype, hi-fi prototype, user research, wireframing.
       </p>
     </div>
     <div
@@ -169,17 +169,17 @@
       data-aos-duration="1200"
       data-aos-once="true" 
     class="ml-2 md:ml-0 w-full">
-      <p class="font-bai text-sm md:text-lg font-normal capitalize">
-       <strong class="text-gray-800">experience:</strong>  html, css, JavaScript, bootstrap, tailwind css, figma, adobe xd, usability studies, lo-fi prototype, hi-fi prototype, user research, wireframing.
+      <p class="font-bai text-sm md:text-lg font-normal capitalize dark:text-white">
+       <strong class="text-gray-800 dark:text-mainColor">experience:</strong>  html, css, JavaScript, bootstrap, tailwind css, figma, adobe xd, usability studies, lo-fi prototype, hi-fi prototype, user research, wireframing.
       </p>
     </div>
   </section>
 
   <section class="w-full flex flex-col gap-4 p-4 md:px-[50px] lg:px-[100px] xl:px-[200px]">
-    <h1 class="w-full md:col-span-2 font-bai text-xl md:text-2xl font-bold capitalize text-gray-800 p-4 text-center">services</h1>
+    <h1 class="w-full md:col-span-2 font-bai text-xl md:text-2xl font-bold capitalize text-gray-800 p-4 text-center dark:text-mainColor">services</h1>
     <div class="w-full flex items-center flex-col md:justify-evenly md:flex-row">
       <div class="p-4">
-        <p class="font-bai text-sm capitalize md:text-xl text-gray-800 font-semibold">ux design</p>
+        <p class="font-bai text-sm capitalize md:text-xl text-gray-800 font-semibold dark:text-white">ux design</p>
         <div
         style="
         background-image: url(img/UX\ Flowchart\ Cards\ -\ UI_UX\ Assets.jpeg); 
@@ -192,7 +192,7 @@
         class="w-[289px] h-[318px] border border-gray-300 rounded-md bg-white md:w-[300px] md:h-[400px] xl:w-[350px] xl:h-[420px]"></div>
       </div>
       <div class="p-4">
-        <p class="font-bai text-sm capitalize md:text-xl text-gray-800 font-semibold">frontend development</p>
+        <p class="font-bai text-sm capitalize md:text-xl text-gray-800 font-semibold dark:text-white">frontend development</p>
         <div 
         style="background-image: url(img/Floating\ Screen\ and\ Laptop\ Mockup.jpeg); 
         background-position: center; 
@@ -208,17 +208,17 @@
   </section>
 
   <div  class="w-full flex flex-col gap-4 p-4 md:px-[50px] lg:px-[100px] xl:px-[200px]">
-    <h1 id="projects" class="w-full md:col-span-2 font-bai text-xl md:text-2xl font-bold capitalize text-gray-800 p-4 text-center md:text-left">projects</h1>
+    <h1 id="projects" class="w-full md:col-span-2 font-bai text-xl md:text-2xl font-bold capitalize text-gray-800 p-4 text-center md:text-left dark:text-mainColor">projects</h1>
     <div class="w-[240px] xl:w-[270px] flex justify-between ml-[30px]">
-      <p class=" selector px-[10px] py-[5px] bg-mainColor border border-gray-200 text-white text-sm font-bai capitalize rounded-2xl flex justify-center cursor-pointer items-center xl:text-base transition-colors">All</p>
-      <p class=" selector px-[10px] py-[5px] border border-gray-200 text-black text-sm font-bai capitalize rounded-2xl flex justify-center items-center cursor-pointer xl:text-base transition-colors"> ux design</p>
-      <p class=" selector px-[10px] py-[5px] border border-gray-200 text-black text-sm font-bai capitalize rounded-2xl flex justify-center items-center cursor-pointer xl:text-base transition-colors">frontend dev</p>
+      <p class=" selector px-[10px] py-[5px] bg-mainColor border border-gray-200 text-white text-sm font-bai capitalize rounded-2xl flex justify-center cursor-pointer items-center xl:text-base transition-colors dark:text-white dark:bg-mainColor dark:border-none">All</p>
+      <p class=" selector px-[10px] py-[5px] border border-gray-200 text-black text-sm font-bai capitalize rounded-2xl flex justify-center items-center cursor-pointer xl:text-base transition-colors dark:text-white dark:bg-gray-700 dark:border-none"> ux design</p>
+      <p class=" selector px-[10px] py-[5px] border border-gray-200 text-black text-sm font-bai capitalize rounded-2xl flex justify-center items-center cursor-pointer xl:text-base transition-colors dark:text-white dark:bg-gray-700 dark:border-none">frontend dev</p>
     </div>
     <div class="w-full flex items-center flex-col gap-6 md:justify-evenly md:flex-row">
       <div data-aos="fade-right"
            data-aos-duration="1000"
            data-aos-once="true"
-         class="p-4 w-[289px] h-[375px] bg-white border rounded-md border-gray-300 flex flex-col justify-between md:w-[300px] md:h-[400px] xl:w-[350px] xl:h-[420px]">
+         class="p-4 w-[289px] h-[375px] bg-white border rounded-md border-gray-300 flex flex-col justify-between md:w-[300px] md:h-[400px] xl:w-[350px] xl:h-[420px] dark:bg-[#191D23]">
         <div
         style=
         "background-image: url(img/Frame\ 90.png); 
@@ -226,19 +226,19 @@
         background-size:cover; 
         background-repeat: no-repeat;"
          class="projectImage uiDesign w-[270px]  h-[200px] md:w-[280px] md:h-[220px] xl:w-[330px] xl:h-[230px]  border  bg-gray-300 self-center"></div>
-        <p class="font-bai text-sm font-semibold text-black capitalize">project name</p>
-        <p class="text-black font-bai font-normal text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        <div class="flex w-full bg-white justify-between items-center capitalize font-bai">
+        <p class="font-bai text-sm font-semibold text-black capitalize dark:text-white">project name</p>
+        <p class="text-black font-bai font-normal text-sm dark:text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <div class="flex w-full bg-white justify-between items-center capitalize font-bai dark:bg-inherit">
           <div class="flex items-center cursor-pointer justify-evenly">
             <svg width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M21.035 5.25705C21.945 6.34905 22.399 7.62305 22.399 9.07905C22.399 14.356 19.397 15.903 16.576 16.358C16.94 16.995 17.031 17.723 17.031 18.451V22.181C17.031 22.636 16.758 22.909 16.394 22.909C16.298 22.9104 16.2028 22.8925 16.1138 22.8564C16.0249 22.8203 15.9441 22.7667 15.8762 22.6988C15.8084 22.6309 15.7548 22.5502 15.7187 22.4612C15.6826 22.3723 15.6647 22.277 15.666 22.181V18.451C15.714 18.0697 15.6732 17.6824 15.5469 17.3194C15.4206 16.9563 15.2123 16.6274 14.938 16.358L15.393 15.175C18.214 14.811 21.126 13.901 21.126 8.98805C21.126 7.80505 20.671 6.71305 19.852 5.80305L19.67 5.07605C20.0161 4.2041 20.0479 3.2389 19.76 2.34605C19.306 2.43605 18.396 2.61905 16.85 3.71105L16.303 3.80105C14.1538 3.25531 11.9023 3.25531 9.75302 3.80105L9.20602 3.71105C7.57002 2.71005 6.66002 2.43705 6.20402 2.43705C5.93102 3.34705 5.93102 4.34705 6.29402 5.16705L6.11302 5.89405C5.20302 6.80405 4.74802 7.98705 4.74802 9.07905C4.74802 13.901 7.47802 14.902 10.48 15.266L10.844 16.449C10.298 16.995 10.025 17.723 10.116 18.451V22.272C10.1174 22.368 10.0995 22.4633 10.0633 22.5522C10.0272 22.6412 9.97367 22.7219 9.90579 22.7898C9.83792 22.8577 9.75713 22.9113 9.6682 22.9474C9.57927 22.9835 9.484 23.0014 9.38802 23C9.29205 23.0014 9.19678 22.9835 9.10784 22.9474C9.01891 22.9113 8.93812 22.8577 8.87025 22.7898C8.80238 22.7219 8.7488 22.6412 8.71269 22.5522C8.67659 22.4633 8.65867 22.368 8.66002 22.272V20.18C5.65802 20.817 4.47502 19.27 3.56502 18.088C3.11002 17.542 2.74602 17.087 2.29102 16.996C2.20102 16.905 1.92702 16.541 2.01802 16.177C2.10902 15.813 2.47302 15.54 2.83802 15.722C3.74802 15.904 4.29302 16.632 4.83802 17.269C5.65802 18.361 6.47702 19.361 8.93302 18.816V18.452C8.84302 17.724 9.02402 16.996 9.38802 16.359C6.65802 15.813 3.47402 14.266 3.47402 9.08005C3.47402 7.62405 3.92902 6.35005 4.83902 5.25805C4.56602 3.98505 4.65702 2.62005 5.11202 1.52805L5.56702 1.16405C5.74902 1.07305 7.02302 0.800046 9.66002 2.43705C11.8404 1.89112 14.1217 1.89112 16.302 2.43705C18.851 0.708046 20.216 0.980046 20.398 1.07205L20.853 1.43605C21.308 2.71005 21.399 3.98405 21.035 5.25705Z" fill="black"/>
+              <path class="dark:fill-gray-700"  d="M21.035 5.25705C21.945 6.34905 22.399 7.62305 22.399 9.07905C22.399 14.356 19.397 15.903 16.576 16.358C16.94 16.995 17.031 17.723 17.031 18.451V22.181C17.031 22.636 16.758 22.909 16.394 22.909C16.298 22.9104 16.2028 22.8925 16.1138 22.8564C16.0249 22.8203 15.9441 22.7667 15.8762 22.6988C15.8084 22.6309 15.7548 22.5502 15.7187 22.4612C15.6826 22.3723 15.6647 22.277 15.666 22.181V18.451C15.714 18.0697 15.6732 17.6824 15.5469 17.3194C15.4206 16.9563 15.2123 16.6274 14.938 16.358L15.393 15.175C18.214 14.811 21.126 13.901 21.126 8.98805C21.126 7.80505 20.671 6.71305 19.852 5.80305L19.67 5.07605C20.0161 4.2041 20.0479 3.2389 19.76 2.34605C19.306 2.43605 18.396 2.61905 16.85 3.71105L16.303 3.80105C14.1538 3.25531 11.9023 3.25531 9.75302 3.80105L9.20602 3.71105C7.57002 2.71005 6.66002 2.43705 6.20402 2.43705C5.93102 3.34705 5.93102 4.34705 6.29402 5.16705L6.11302 5.89405C5.20302 6.80405 4.74802 7.98705 4.74802 9.07905C4.74802 13.901 7.47802 14.902 10.48 15.266L10.844 16.449C10.298 16.995 10.025 17.723 10.116 18.451V22.272C10.1174 22.368 10.0995 22.4633 10.0633 22.5522C10.0272 22.6412 9.97367 22.7219 9.90579 22.7898C9.83792 22.8577 9.75713 22.9113 9.6682 22.9474C9.57927 22.9835 9.484 23.0014 9.38802 23C9.29205 23.0014 9.19678 22.9835 9.10784 22.9474C9.01891 22.9113 8.93812 22.8577 8.87025 22.7898C8.80238 22.7219 8.7488 22.6412 8.71269 22.5522C8.67659 22.4633 8.65867 22.368 8.66002 22.272V20.18C5.65802 20.817 4.47502 19.27 3.56502 18.088C3.11002 17.542 2.74602 17.087 2.29102 16.996C2.20102 16.905 1.92702 16.541 2.01802 16.177C2.10902 15.813 2.47302 15.54 2.83802 15.722C3.74802 15.904 4.29302 16.632 4.83802 17.269C5.65802 18.361 6.47702 19.361 8.93302 18.816V18.452C8.84302 17.724 9.02402 16.996 9.38802 16.359C6.65802 15.813 3.47402 14.266 3.47402 9.08005C3.47402 7.62405 3.92902 6.35005 4.83902 5.25805C4.56602 3.98505 4.65702 2.62005 5.11202 1.52805L5.56702 1.16405C5.74902 1.07305 7.02302 0.800046 9.66002 2.43705C11.8404 1.89112 14.1217 1.89112 16.302 2.43705C18.851 0.708046 20.216 0.980046 20.398 1.07205L20.853 1.43605C21.308 2.71005 21.399 3.98405 21.035 5.25705Z" fill="black"/>
             </svg>
-            <p class="text-sm font-medium md:text-base">view demo</p>
+            <p class="text-sm font-medium md:text-base dark:text-white">view demo</p>
           </div>
           <div class="flex items-center cursor-pointer justify-evenly">
-            <p class="text-sm font-medium md:text-base">case study</p>
+            <p class="text-sm font-medium md:text-base dark:text-white">case study</p>
             <svg width="26" height="26" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path fill-rule="evenodd" clip-rule="evenodd" d="M18.21 5.18997C17.786 5.26597 17.207 5.45797 16.363 5.73997L9.87304 7.90297C9.05004 8.17697 8.45303 8.37597 8.01803 8.54597C7.56603 8.72197 7.36804 8.83897 7.28504 8.91797C7.13924 9.05796 7.02324 9.22596 6.944 9.41189C6.86476 9.59783 6.82392 9.79786 6.82392 9.99997C6.82392 10.2021 6.86476 10.4021 6.944 10.5881C7.02324 10.774 7.13924 10.942 7.28504 11.082C7.36804 11.162 7.56603 11.278 8.01803 11.454C8.64404 11.6868 9.2752 11.9055 9.91104 12.11C10.203 12.207 10.405 12.274 10.588 12.371C11.0313 12.6058 11.3937 12.9685 11.628 13.412C11.726 13.595 11.793 13.797 11.89 14.089L11.903 14.128C12.177 14.95 12.376 15.548 12.546 15.982C12.722 16.434 12.839 16.632 12.919 16.715C13.059 16.8606 13.2269 16.9765 13.4128 17.0556C13.5986 17.1348 13.7985 17.1756 14.0005 17.1756C14.2025 17.1756 14.4024 17.1348 14.5883 17.0556C14.7741 16.9765 14.9421 16.8606 15.082 16.715C15.162 16.632 15.278 16.434 15.454 15.982C15.624 15.548 15.824 14.95 16.097 14.128L18.261 7.63697C18.542 6.79297 18.734 6.21297 18.809 5.78997C18.885 5.36197 18.81 5.26497 18.772 5.22797C18.735 5.18997 18.638 5.11397 18.21 5.18997ZM18.035 4.20697C18.545 4.11697 19.08 4.12197 19.48 4.52097C19.879 4.92097 19.884 5.45597 19.794 5.96597C19.704 6.47097 19.488 7.11997 19.224 7.91297L19.209 7.95297L17.046 14.445L17.041 14.46C16.8368 15.0938 16.6184 15.7229 16.386 16.347C16.211 16.793 16.036 17.167 15.803 17.409C15.5697 17.6519 15.2898 17.8451 14.9799 17.9771C14.6701 18.1091 14.3368 18.1772 14 18.1772C13.6633 18.1772 13.33 18.1091 13.0201 17.9771C12.7103 17.8451 12.4303 17.6519 12.197 17.409C11.965 17.166 11.789 16.793 11.614 16.347C11.434 15.886 11.227 15.264 10.959 14.46L10.954 14.445C10.839 14.1 10.798 13.982 10.744 13.881C10.6035 13.6147 10.386 13.397 10.12 13.256C10.02 13.203 9.90104 13.162 9.55604 13.046L9.54104 13.042C8.90737 12.8373 8.27822 12.6189 7.65404 12.387C7.20804 12.212 6.83404 12.037 6.59204 11.804C6.34915 11.5707 6.15591 11.2907 6.0239 10.9809C5.8919 10.6711 5.82385 10.3378 5.82385 10.001C5.82385 9.6642 5.8919 9.33089 6.0239 9.02106C6.15591 8.71123 6.34915 8.43127 6.59204 8.19797C6.83504 7.96497 7.20804 7.78997 7.65404 7.61497C8.11504 7.43497 8.73704 7.22797 9.54104 6.95997L9.55604 6.95497L16.047 4.79197L16.088 4.77797C16.881 4.51397 17.53 4.29797 18.035 4.20797" fill="black"/>
+              <path class="dark:fill-gray-700"  fill-rule="evenodd" clip-rule="evenodd" d="M18.21 5.18997C17.786 5.26597 17.207 5.45797 16.363 5.73997L9.87304 7.90297C9.05004 8.17697 8.45303 8.37597 8.01803 8.54597C7.56603 8.72197 7.36804 8.83897 7.28504 8.91797C7.13924 9.05796 7.02324 9.22596 6.944 9.41189C6.86476 9.59783 6.82392 9.79786 6.82392 9.99997C6.82392 10.2021 6.86476 10.4021 6.944 10.5881C7.02324 10.774 7.13924 10.942 7.28504 11.082C7.36804 11.162 7.56603 11.278 8.01803 11.454C8.64404 11.6868 9.2752 11.9055 9.91104 12.11C10.203 12.207 10.405 12.274 10.588 12.371C11.0313 12.6058 11.3937 12.9685 11.628 13.412C11.726 13.595 11.793 13.797 11.89 14.089L11.903 14.128C12.177 14.95 12.376 15.548 12.546 15.982C12.722 16.434 12.839 16.632 12.919 16.715C13.059 16.8606 13.2269 16.9765 13.4128 17.0556C13.5986 17.1348 13.7985 17.1756 14.0005 17.1756C14.2025 17.1756 14.4024 17.1348 14.5883 17.0556C14.7741 16.9765 14.9421 16.8606 15.082 16.715C15.162 16.632 15.278 16.434 15.454 15.982C15.624 15.548 15.824 14.95 16.097 14.128L18.261 7.63697C18.542 6.79297 18.734 6.21297 18.809 5.78997C18.885 5.36197 18.81 5.26497 18.772 5.22797C18.735 5.18997 18.638 5.11397 18.21 5.18997ZM18.035 4.20697C18.545 4.11697 19.08 4.12197 19.48 4.52097C19.879 4.92097 19.884 5.45597 19.794 5.96597C19.704 6.47097 19.488 7.11997 19.224 7.91297L19.209 7.95297L17.046 14.445L17.041 14.46C16.8368 15.0938 16.6184 15.7229 16.386 16.347C16.211 16.793 16.036 17.167 15.803 17.409C15.5697 17.6519 15.2898 17.8451 14.9799 17.9771C14.6701 18.1091 14.3368 18.1772 14 18.1772C13.6633 18.1772 13.33 18.1091 13.0201 17.9771C12.7103 17.8451 12.4303 17.6519 12.197 17.409C11.965 17.166 11.789 16.793 11.614 16.347C11.434 15.886 11.227 15.264 10.959 14.46L10.954 14.445C10.839 14.1 10.798 13.982 10.744 13.881C10.6035 13.6147 10.386 13.397 10.12 13.256C10.02 13.203 9.90104 13.162 9.55604 13.046L9.54104 13.042C8.90737 12.8373 8.27822 12.6189 7.65404 12.387C7.20804 12.212 6.83404 12.037 6.59204 11.804C6.34915 11.5707 6.15591 11.2907 6.0239 10.9809C5.8919 10.6711 5.82385 10.3378 5.82385 10.001C5.82385 9.6642 5.8919 9.33089 6.0239 9.02106C6.15591 8.71123 6.34915 8.43127 6.59204 8.19797C6.83504 7.96497 7.20804 7.78997 7.65404 7.61497C8.11504 7.43497 8.73704 7.22797 9.54104 6.95997L9.55604 6.95497L16.047 4.79197L16.088 4.77797C16.881 4.51397 17.53 4.29797 18.035 4.20797" fill="black"/>
             </svg> 
           </div>
         </div>
@@ -246,21 +246,21 @@
       <div data-aos="fade-left"
            data-aos-duration="1000"
            data-aos-once="true"
-         class="projectImage frontend p-4 w-[289px]  h-[375px]  bg-white border rounded-md border-gray-300 flex flex-col justify-between md:w-[300px] md:h-[400px] xl:w-[350px] xl:h-[420px]">
+         class="projectImage frontend p-4 w-[289px]  h-[375px]  bg-white border rounded-md border-gray-300 flex flex-col justify-between md:w-[300px] md:h-[400px] xl:w-[350px] xl:h-[420px] dark:bg-[#191D23]">
           <div class="w-[270px]  h-[200px] md:w-[280px] md:h-[220px] xl:w-[330px] xl:h-[230px]  border  bg-gray-300 self-center"></div>
-          <p class="font-bai text-sm font-semibold text-black capitalize">project name</p>
-          <p class="text-black font-bai font-normal text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          <div class="flex w-full bg-white items-center justify-between capitalize font-bai">
+          <p class="font-bai text-sm font-semibold text-black capitalize dark:text-white">project name</p>
+          <p class="text-black font-bai font-normal text-sm dark:text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <div class="flex w-full bg-white items-center justify-between capitalize font-bai dark:bg-inherit">
             <div class="flex items-center justify-between cursor-pointer">
               <svg width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M21.035 5.25705C21.945 6.34905 22.399 7.62305 22.399 9.07905C22.399 14.356 19.397 15.903 16.576 16.358C16.94 16.995 17.031 17.723 17.031 18.451V22.181C17.031 22.636 16.758 22.909 16.394 22.909C16.298 22.9104 16.2028 22.8925 16.1138 22.8564C16.0249 22.8203 15.9441 22.7667 15.8762 22.6988C15.8084 22.6309 15.7548 22.5502 15.7187 22.4612C15.6826 22.3723 15.6647 22.277 15.666 22.181V18.451C15.714 18.0697 15.6732 17.6824 15.5469 17.3194C15.4206 16.9563 15.2123 16.6274 14.938 16.358L15.393 15.175C18.214 14.811 21.126 13.901 21.126 8.98805C21.126 7.80505 20.671 6.71305 19.852 5.80305L19.67 5.07605C20.0161 4.2041 20.0479 3.2389 19.76 2.34605C19.306 2.43605 18.396 2.61905 16.85 3.71105L16.303 3.80105C14.1538 3.25531 11.9023 3.25531 9.75302 3.80105L9.20602 3.71105C7.57002 2.71005 6.66002 2.43705 6.20402 2.43705C5.93102 3.34705 5.93102 4.34705 6.29402 5.16705L6.11302 5.89405C5.20302 6.80405 4.74802 7.98705 4.74802 9.07905C4.74802 13.901 7.47802 14.902 10.48 15.266L10.844 16.449C10.298 16.995 10.025 17.723 10.116 18.451V22.272C10.1174 22.368 10.0995 22.4633 10.0633 22.5522C10.0272 22.6412 9.97367 22.7219 9.90579 22.7898C9.83792 22.8577 9.75713 22.9113 9.6682 22.9474C9.57927 22.9835 9.484 23.0014 9.38802 23C9.29205 23.0014 9.19678 22.9835 9.10784 22.9474C9.01891 22.9113 8.93812 22.8577 8.87025 22.7898C8.80238 22.7219 8.7488 22.6412 8.71269 22.5522C8.67659 22.4633 8.65867 22.368 8.66002 22.272V20.18C5.65802 20.817 4.47502 19.27 3.56502 18.088C3.11002 17.542 2.74602 17.087 2.29102 16.996C2.20102 16.905 1.92702 16.541 2.01802 16.177C2.10902 15.813 2.47302 15.54 2.83802 15.722C3.74802 15.904 4.29302 16.632 4.83802 17.269C5.65802 18.361 6.47702 19.361 8.93302 18.816V18.452C8.84302 17.724 9.02402 16.996 9.38802 16.359C6.65802 15.813 3.47402 14.266 3.47402 9.08005C3.47402 7.62405 3.92902 6.35005 4.83902 5.25805C4.56602 3.98505 4.65702 2.62005 5.11202 1.52805L5.56702 1.16405C5.74902 1.07305 7.02302 0.800046 9.66002 2.43705C11.8404 1.89112 14.1217 1.89112 16.302 2.43705C18.851 0.708046 20.216 0.980046 20.398 1.07205L20.853 1.43605C21.308 2.71005 21.399 3.98405 21.035 5.25705Z" fill="black"/>
+                <path class="dark:fill-gray-700" d="M21.035 5.25705C21.945 6.34905 22.399 7.62305 22.399 9.07905C22.399 14.356 19.397 15.903 16.576 16.358C16.94 16.995 17.031 17.723 17.031 18.451V22.181C17.031 22.636 16.758 22.909 16.394 22.909C16.298 22.9104 16.2028 22.8925 16.1138 22.8564C16.0249 22.8203 15.9441 22.7667 15.8762 22.6988C15.8084 22.6309 15.7548 22.5502 15.7187 22.4612C15.6826 22.3723 15.6647 22.277 15.666 22.181V18.451C15.714 18.0697 15.6732 17.6824 15.5469 17.3194C15.4206 16.9563 15.2123 16.6274 14.938 16.358L15.393 15.175C18.214 14.811 21.126 13.901 21.126 8.98805C21.126 7.80505 20.671 6.71305 19.852 5.80305L19.67 5.07605C20.0161 4.2041 20.0479 3.2389 19.76 2.34605C19.306 2.43605 18.396 2.61905 16.85 3.71105L16.303 3.80105C14.1538 3.25531 11.9023 3.25531 9.75302 3.80105L9.20602 3.71105C7.57002 2.71005 6.66002 2.43705 6.20402 2.43705C5.93102 3.34705 5.93102 4.34705 6.29402 5.16705L6.11302 5.89405C5.20302 6.80405 4.74802 7.98705 4.74802 9.07905C4.74802 13.901 7.47802 14.902 10.48 15.266L10.844 16.449C10.298 16.995 10.025 17.723 10.116 18.451V22.272C10.1174 22.368 10.0995 22.4633 10.0633 22.5522C10.0272 22.6412 9.97367 22.7219 9.90579 22.7898C9.83792 22.8577 9.75713 22.9113 9.6682 22.9474C9.57927 22.9835 9.484 23.0014 9.38802 23C9.29205 23.0014 9.19678 22.9835 9.10784 22.9474C9.01891 22.9113 8.93812 22.8577 8.87025 22.7898C8.80238 22.7219 8.7488 22.6412 8.71269 22.5522C8.67659 22.4633 8.65867 22.368 8.66002 22.272V20.18C5.65802 20.817 4.47502 19.27 3.56502 18.088C3.11002 17.542 2.74602 17.087 2.29102 16.996C2.20102 16.905 1.92702 16.541 2.01802 16.177C2.10902 15.813 2.47302 15.54 2.83802 15.722C3.74802 15.904 4.29302 16.632 4.83802 17.269C5.65802 18.361 6.47702 19.361 8.93302 18.816V18.452C8.84302 17.724 9.02402 16.996 9.38802 16.359C6.65802 15.813 3.47402 14.266 3.47402 9.08005C3.47402 7.62405 3.92902 6.35005 4.83902 5.25805C4.56602 3.98505 4.65702 2.62005 5.11202 1.52805L5.56702 1.16405C5.74902 1.07305 7.02302 0.800046 9.66002 2.43705C11.8404 1.89112 14.1217 1.89112 16.302 2.43705C18.851 0.708046 20.216 0.980046 20.398 1.07205L20.853 1.43605C21.308 2.71005 21.399 3.98405 21.035 5.25705Z" fill="black"/>
               </svg>
-              <p class="text-sm font-medium  md:text-base">view demo</p>
+              <p class="text-sm font-medium  md:text-base dark:text-white">view demo</p>
             </div>
             <div class="flex items-center justify-evenly cursor-pointer">
-              <p class="text-sm font-medium md:text-base">case study</p>
+              <p class="text-sm font-medium md:text-base dark:text-white">case study</p>
               <svg width="26" height="26" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path fill-rule="evenodd" clip-rule="evenodd" d="M18.21 5.18997C17.786 5.26597 17.207 5.45797 16.363 5.73997L9.87304 7.90297C9.05004 8.17697 8.45303 8.37597 8.01803 8.54597C7.56603 8.72197 7.36804 8.83897 7.28504 8.91797C7.13924 9.05796 7.02324 9.22596 6.944 9.41189C6.86476 9.59783 6.82392 9.79786 6.82392 9.99997C6.82392 10.2021 6.86476 10.4021 6.944 10.5881C7.02324 10.774 7.13924 10.942 7.28504 11.082C7.36804 11.162 7.56603 11.278 8.01803 11.454C8.64404 11.6868 9.2752 11.9055 9.91104 12.11C10.203 12.207 10.405 12.274 10.588 12.371C11.0313 12.6058 11.3937 12.9685 11.628 13.412C11.726 13.595 11.793 13.797 11.89 14.089L11.903 14.128C12.177 14.95 12.376 15.548 12.546 15.982C12.722 16.434 12.839 16.632 12.919 16.715C13.059 16.8606 13.2269 16.9765 13.4128 17.0556C13.5986 17.1348 13.7985 17.1756 14.0005 17.1756C14.2025 17.1756 14.4024 17.1348 14.5883 17.0556C14.7741 16.9765 14.9421 16.8606 15.082 16.715C15.162 16.632 15.278 16.434 15.454 15.982C15.624 15.548 15.824 14.95 16.097 14.128L18.261 7.63697C18.542 6.79297 18.734 6.21297 18.809 5.78997C18.885 5.36197 18.81 5.26497 18.772 5.22797C18.735 5.18997 18.638 5.11397 18.21 5.18997ZM18.035 4.20697C18.545 4.11697 19.08 4.12197 19.48 4.52097C19.879 4.92097 19.884 5.45597 19.794 5.96597C19.704 6.47097 19.488 7.11997 19.224 7.91297L19.209 7.95297L17.046 14.445L17.041 14.46C16.8368 15.0938 16.6184 15.7229 16.386 16.347C16.211 16.793 16.036 17.167 15.803 17.409C15.5697 17.6519 15.2898 17.8451 14.9799 17.9771C14.6701 18.1091 14.3368 18.1772 14 18.1772C13.6633 18.1772 13.33 18.1091 13.0201 17.9771C12.7103 17.8451 12.4303 17.6519 12.197 17.409C11.965 17.166 11.789 16.793 11.614 16.347C11.434 15.886 11.227 15.264 10.959 14.46L10.954 14.445C10.839 14.1 10.798 13.982 10.744 13.881C10.6035 13.6147 10.386 13.397 10.12 13.256C10.02 13.203 9.90104 13.162 9.55604 13.046L9.54104 13.042C8.90737 12.8373 8.27822 12.6189 7.65404 12.387C7.20804 12.212 6.83404 12.037 6.59204 11.804C6.34915 11.5707 6.15591 11.2907 6.0239 10.9809C5.8919 10.6711 5.82385 10.3378 5.82385 10.001C5.82385 9.6642 5.8919 9.33089 6.0239 9.02106C6.15591 8.71123 6.34915 8.43127 6.59204 8.19797C6.83504 7.96497 7.20804 7.78997 7.65404 7.61497C8.11504 7.43497 8.73704 7.22797 9.54104 6.95997L9.55604 6.95497L16.047 4.79197L16.088 4.77797C16.881 4.51397 17.53 4.29797 18.035 4.20797" fill="black"/>
+                <path class="dark:fill-gray-700" fill-rule="evenodd" clip-rule="evenodd" d="M18.21 5.18997C17.786 5.26597 17.207 5.45797 16.363 5.73997L9.87304 7.90297C9.05004 8.17697 8.45303 8.37597 8.01803 8.54597C7.56603 8.72197 7.36804 8.83897 7.28504 8.91797C7.13924 9.05796 7.02324 9.22596 6.944 9.41189C6.86476 9.59783 6.82392 9.79786 6.82392 9.99997C6.82392 10.2021 6.86476 10.4021 6.944 10.5881C7.02324 10.774 7.13924 10.942 7.28504 11.082C7.36804 11.162 7.56603 11.278 8.01803 11.454C8.64404 11.6868 9.2752 11.9055 9.91104 12.11C10.203 12.207 10.405 12.274 10.588 12.371C11.0313 12.6058 11.3937 12.9685 11.628 13.412C11.726 13.595 11.793 13.797 11.89 14.089L11.903 14.128C12.177 14.95 12.376 15.548 12.546 15.982C12.722 16.434 12.839 16.632 12.919 16.715C13.059 16.8606 13.2269 16.9765 13.4128 17.0556C13.5986 17.1348 13.7985 17.1756 14.0005 17.1756C14.2025 17.1756 14.4024 17.1348 14.5883 17.0556C14.7741 16.9765 14.9421 16.8606 15.082 16.715C15.162 16.632 15.278 16.434 15.454 15.982C15.624 15.548 15.824 14.95 16.097 14.128L18.261 7.63697C18.542 6.79297 18.734 6.21297 18.809 5.78997C18.885 5.36197 18.81 5.26497 18.772 5.22797C18.735 5.18997 18.638 5.11397 18.21 5.18997ZM18.035 4.20697C18.545 4.11697 19.08 4.12197 19.48 4.52097C19.879 4.92097 19.884 5.45597 19.794 5.96597C19.704 6.47097 19.488 7.11997 19.224 7.91297L19.209 7.95297L17.046 14.445L17.041 14.46C16.8368 15.0938 16.6184 15.7229 16.386 16.347C16.211 16.793 16.036 17.167 15.803 17.409C15.5697 17.6519 15.2898 17.8451 14.9799 17.9771C14.6701 18.1091 14.3368 18.1772 14 18.1772C13.6633 18.1772 13.33 18.1091 13.0201 17.9771C12.7103 17.8451 12.4303 17.6519 12.197 17.409C11.965 17.166 11.789 16.793 11.614 16.347C11.434 15.886 11.227 15.264 10.959 14.46L10.954 14.445C10.839 14.1 10.798 13.982 10.744 13.881C10.6035 13.6147 10.386 13.397 10.12 13.256C10.02 13.203 9.90104 13.162 9.55604 13.046L9.54104 13.042C8.90737 12.8373 8.27822 12.6189 7.65404 12.387C7.20804 12.212 6.83404 12.037 6.59204 11.804C6.34915 11.5707 6.15591 11.2907 6.0239 10.9809C5.8919 10.6711 5.82385 10.3378 5.82385 10.001C5.82385 9.6642 5.8919 9.33089 6.0239 9.02106C6.15591 8.71123 6.34915 8.43127 6.59204 8.19797C6.83504 7.96497 7.20804 7.78997 7.65404 7.61497C8.11504 7.43497 8.73704 7.22797 9.54104 6.95997L9.55604 6.95497L16.047 4.79197L16.088 4.77797C16.881 4.51397 17.53 4.29797 18.035 4.20797" fill="black"/>
               </svg>                           
             </div>
           </div>
@@ -268,66 +268,72 @@
     </div>
   </div>
 
-    <form id="contact" class="pt-24 flex flex-col items-center w-full h-[600px] justify-between md:px-[50px] lg:px-[100px] xl:px-[200px]" action="">
-      <h1 id="projects" class="w-full md:col-span-2 font-bai text-xl md:text-2xl font-bold capitalize text-gray-800 p-4  text-center md:text-left">contact me </h1>
-      <div class="w-full h-[130px] md:h-[51px] flex items-center flex-col md:flex-row justify-evenly">
-        <input placeholder="fullname" class="outline-mainColor w-[345px]  h-[54px] border rounded-md placeholder:capitalize placeholder:font-bai placeholder:text-gray-600 pl-2 md:w-full md:mr-4" type="text">
-        <input placeholder="email" class="outline-mainColor w-[345px]  h-[54px] border rounded-md placeholder:capitalize placeholder:font-bai placeholder:text-gray-600 pl-2 md:w-full" type="text">
-      </div>
-      <input placeholder="subject" class="outline-mainColor w-[345px]  h-[54px] border rounded-md placeholder:capitalize placeholder:font-bai placeholder:text-gray-600 pl-2 md:w-full" type="text">
-      <input placeholder="message" class="outline-mainColor w-[345px]  h-[54px] border rounded-md placeholder:capitalize placeholder:font-bai placeholder:text-gray-600 pl-2 md:w-full" type="text">
+  <div id="contact" class="px-4 max-w-[1200px] mx-auto mt-32">
+    
+    <h1 class="font-bai text-xl md:text-2xl font-bold capitalize text-gray-800 mb-4  text-center md:text-left dark:text-mainColor">contact me </h1>
+      <form id="contact" action="">
+        <div class="space-y-4">
 
-        <div class="w-full h-40 flex items-center justify-center cursor-pointer">
-          <div
-            class="relative inline-flex items-center justify-start py-3 pl-4 pr-12 overflow-hidden font-semibold shadow text-indigo-600 transition-all duration-150 ease-in-out rounded hover:pl-10 hover:pr-6 bg-gray-50 dark:bg-gray-700 dark:text-white dark:hover:text-gray-200 dark:shadow-none group"
-          >
-            <span
-              class="absolute bottom-0 left-0 w-full h-1 transition-all duration-150 ease-in-out bg-indigo-600 group-hover:h-full"
-            ></span>
-            <span
-              class="absolute right-0 pr-4 duration-200 ease-out group-hover:translate-x-12"
-            >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-                fill="none"
-                class="w-5 h-5 text-green-400"
-              >
-                <path
-                  d="M14 5l7 7m0 0l-7 7m7-7H3"
-                  stroke-width="2"
-                  stroke-linejoin="round"
-                  stroke-linecap="round"
-                ></path>
-              </svg>
-            </span>
-            <span
-              class="absolute left-0 pl-2.5 -translate-x-12 group-hover:translate-x-0 ease-out duration-200"
-            >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-                fill="none"
-                class="w-5 h-5 text-green-400"
-              >
-                <path
-                  d="M14 5l7 7m0 0l-7 7m7-7H3"
-                  stroke-width="2"
-                  stroke-linejoin="round"
-                  stroke-linecap="round"
-                ></path>
-              </svg>
-            </span>
-            <button
-              class="font-bai capitalize relative w-full text-left transition-colors duration-200 ease-in-out group-hover:text-white dark:group-hover:text-gray-200"
-              >send message</button
-            >
+          <div class="w-full flex flex-col gap-4 lg:flex-row">
+            <input placeholder="fullname" class="outline-mainColor w-full  h-[54px] border rounded-md placeholder:capitalize placeholder:font-bai placeholder:text-gray-600 pl-2 md:w-full md:mr-4 dark:bg-[#191D23] border-mainColor" type="text">
+            <input placeholder="email" class="outline-mainColor w-full  h-[54px] border rounded-md placeholder:capitalize placeholder:font-bai placeholder:text-gray-600 pl-2 md:w-full dark:bg-[#191D23] border-mainColor" type="text">
           </div>
+          <input placeholder="subject" class="outline-mainColor w-full   h-[54px] border rounded-md placeholder:capitalize placeholder:font-bai placeholder:text-gray-600 pl-2 md:w-full dark:bg-[#191D23] border-mainColor" type="text">
+          <input placeholder="message" class="outline-mainColor w-full   h-[54px] border rounded-md placeholder:capitalize placeholder:font-bai placeholder:text-gray-600 pl-2 md:w-full dark:bg-[#191D23] border-mainColor" type="text">
         </div>
-        
-    </form>
+  
+          <div class="w-full h-40 flex items-center justify-center cursor-pointer">
+            <div
+              class="relative inline-flex items-center justify-start py-3 pl-4 pr-12 overflow-hidden font-semibold shadow text-indigo-600 transition-all duration-150 ease-in-out rounded hover:pl-10 hover:pr-6 bg-gray-50 dark:bg-gray-700 dark:text-white dark:hover:text-gray-200 dark:shadow-none group"
+            >
+              <span
+                class="absolute bottom-0 left-0 w-full h-1 transition-all duration-150 ease-in-out bg-indigo-600 group-hover:h-full"
+              ></span>
+              <span
+                class="absolute right-0 pr-4 duration-200 ease-out group-hover:translate-x-12"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  fill="none"
+                  class="w-5 h-5 text-green-400"
+                >
+                  <path
+                    d="M14 5l7 7m0 0l-7 7m7-7H3"
+                    stroke-width="2"
+                    stroke-linejoin="round"
+                    stroke-linecap="round"
+                  ></path>
+                </svg>
+              </span>
+              <span
+                class="absolute left-0 pl-2.5 -translate-x-12 group-hover:translate-x-0 ease-out duration-200"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  fill="none"
+                  class="w-5 h-5 text-green-400"
+                >
+                  <path
+                    d="M14 5l7 7m0 0l-7 7m7-7H3"
+                    stroke-width="2"
+                    stroke-linejoin="round"
+                    stroke-linecap="round"
+                  ></path>
+                </svg>
+              </span>
+              <button
+                class="font-bai capitalize relative w-full text-left transition-colors duration-200 ease-in-out group-hover:text-white dark:group-hover:text-gray-200"
+                >send message</button>
+            </div>
+          </div>
+          
+      </form>
+  </div>
+
 
     <footer class="mt-10 bg-black w-full flex flex-col items-center justify-center h-[145px]">
       <p class="font-bai text-xs text-white">preyealexander731@gmail.com</p>
