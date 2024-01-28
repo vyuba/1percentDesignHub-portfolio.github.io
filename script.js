@@ -84,7 +84,7 @@ if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.match
   window.addEventListener('load', ()=>{
     setTimeout(() => {
         loader.style.display = 'none'; 
-    }, 50);
+    }, 1500);
   })
 let selectorArray = document.querySelectorAll('.selector')
 selectorArray.forEach(button =>{
