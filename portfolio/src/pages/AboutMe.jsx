@@ -9,7 +9,7 @@ function AboutMe() {
       <div className="w-full text-stone-950 text-4xl font-bold font-Utara uppercase">
         developer and designer
       </div>
-      <div className="w-full  text-stone-950 text-xs font-['Cooper Hewitt'] capitalize">
+      <div className="w-full  text-stone-950 text-xs font-CooperHewitt    capitalize">
         Hello! I’m Alexander Preye, a passionate frontend developer and design
         enthusiast. My journey in the digital realm has been an exciting blend
         of code, creativity, and aesthetics. I thrive on transforming ideas into
@@ -36,7 +36,7 @@ function AboutMe() {
         <div className="text-stone-950 text-[15px] font-normal font-Utara uppercase">
           deeds
         </div>
-        <div className="justify-start items-start gap-[5px] flex">
+        <div className="justify-between items-center gap-[5px] flex">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="16"
