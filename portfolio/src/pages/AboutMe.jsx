@@ -6,7 +6,7 @@ function AboutMe() {
       <div className=" p-2.5 w-fit border-2 cursor-pointer border-stone-950 text-stone-950 text-[15px] font-semibold font-Utara uppercase">
         about me
       </div>
-      <div className="w-[319px] text-stone-950 text-4xl font-bold font-Utara uppercase">
+      <div className="w-full text-stone-950 text-4xl font-bold font-Utara uppercase">
         developer and designer
       </div>
       <div className="w-full  text-stone-950 text-xs font-['Cooper Hewitt'] capitalize">
@@ -27,7 +27,7 @@ function AboutMe() {
         remarkable together! If you need a code snippet or a design tip, I’m
         just a message away!
       </div>
-      <div className="p-2.5  border-b-2 border-stone-950 justify-center items-center gap-2.5 inline-flex">
+      <div className="pb-2.5  border-b-2 border-dashed border-stone-950 justify-start items-center inline-flex">
         <div className="text-stone-950 text-[15px] font-bold font-Utara uppercase">
           people i have worked with
         </div>

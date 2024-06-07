@@ -8,6 +8,7 @@ export default {
     extend: {
       fontFamily: {
         Utara: ['Utara', 'sans-serif'], // Define your custom font family
+        CooperHewitt: ['CooperHewitt', 'sans-serif'], // Define your custom font family
       },
     },
   },

@@ -1,8 +1,8 @@
 import Footer from "./components/Footer"
 import Header from "./components/Header"
 import Navbar from "./components/Navbar"
-import Work from "./pages/Work"
-// import AboutMe from "./pages/AboutMe"
+// import Work from "./pages/Work"
+import AboutMe from "./pages/AboutMe"
 
 function App() {
 
@@ -12,8 +12,8 @@ function App() {
     <Navbar/>
       <div className="w-full">
       <Header/>
-      <Work/>
-      {/* <AboutMe/> */}
+      {/* <Work/> */}
+      <AboutMe/>
       <Footer/>
       </div>
     </div>
