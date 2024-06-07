@@ -3,23 +3,23 @@
 function Footer() {
   return (
     <div className="w-full h-[294px] pl-[25px] pt-[22px] bg-stone-950 flex-col justify-start items-start gap-[31px] inline-flex">
-      <div className="text-neutral-50 text-xl font-semibold font-['Utara'] uppercase">
+      <div className="text-neutral-50 text-xl font-semibold font-Utara uppercase">
         logo
       </div>
       <div className="justify-center items-center gap-3 inline-flex">
         <div className="flex-col justify-start items-start gap-6 inline-flex">
           <div className="cursor-pointer hover:border-solid   p-2.5 border-b border-dashed border-neutral-50 justify-center items-center gap-2.5 inline-flex">
-            <div className="text-neutral-50 text-[15px] font-semibold font-['Utara'] uppercase">
+            <div className="text-neutral-50 text-[15px] font-semibold font-Utara uppercase">
               home
             </div>
           </div>
           <div className="cursor-pointer hover:border-solid   p-2.5 border-b border-dashed border-neutral-50 justify-center items-center gap-2.5 inline-flex">
-            <div className="text-neutral-50 text-[15px] font-semibold font-['Utara'] uppercase">
+            <div className="text-neutral-50 text-[15px] font-semibold font-Utara uppercase">
               projects
             </div>
           </div>
           <div className="cursor-pointer hover:border-solid   p-2.5 border-b border-dashed border-neutral-50 justify-center items-center gap-2.5 inline-flex">
-            <div className="text-neutral-50 text-[15px] font-semibold font-['Utara'] uppercase">
+            <div className="text-neutral-50 text-[15px] font-semibold font-Utara uppercase">
               about me
             </div>
           </div>
@@ -39,7 +39,7 @@ function Footer() {
                 fill="#FBFBFB"
               />
             </svg>
-            <div className=" text-[15px] font-semibold font-['Utara'] capitalize">
+            <div className=" text-[15px] font-semibold font-Utara capitalize">
               instagram
             </div>
           </div>
@@ -57,7 +57,7 @@ function Footer() {
                 fill="#FBFBFB"
               />
             </svg>
-            <div className="text-neutral-50 text-[15px] font-semibold font-['Utara'] capitalize">
+            <div className="text-neutral-50 text-[15px] font-semibold font-Utara capitalize">
               twitter
             </div>
           </div>
@@ -85,7 +85,7 @@ function Footer() {
                 </clipPath>
               </defs>
             </svg>
-            <div className="text-neutral-50 text-[15px] font-semibold font-['Utara'] capitalize">
+            <div className="text-neutral-50 text-[15px] font-semibold font-Utara capitalize">
               linkedin
             </div>
           </div>
@@ -103,7 +103,7 @@ function Footer() {
                 fill="#FBFBFB"
               />
             </svg>
-            <div className="text-neutral-50 text-[15px] font-semibold font-['Utara'] capitalize">
+            <div className="text-neutral-50 text-[15px] font-semibold font-Utara capitalize">
               behance
             </div>
           </div>

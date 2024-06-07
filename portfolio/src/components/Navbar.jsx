@@ -6,7 +6,7 @@ function Navbar() {
       <div className="self-stretch flex-col justify-start items-start gap-[27px] inline-flex">
         <div className="pl-2 pr-[22px] pt-2.5 justify-center items-center gap-[135px] inline-flex cursor-pointer">
           <div className="pb-2.5 border-b border-stone-950 border-dashed justify-center items-center gap-2.5 flex">
-            <div className="text-stone-950 text-[15px] font-semibold font-['Utara'] uppercase">
+            <div className="text-stone-950 text-[15px] font-semibold font-Utara uppercase">
               home
             </div>
           </div>
@@ -25,7 +25,7 @@ function Navbar() {
           </svg>
         </div>
         <div className="pl-2 pr-[22px] py-2.5 border-2 border-stone-950 justify-center items-center gap-[104px] inline-flex cursor-pointer">
-          <div className="text-stone-950 text-[15px] font-semibold font-['Utara'] uppercase">
+          <div className="text-stone-950 text-[15px] font-semibold font-Utara uppercase">
             projects
           </div>
           <svg
@@ -44,7 +44,7 @@ function Navbar() {
         </div>
         <div className="pl-2 pr-[22px] pt-2.5 justify-center items-center gap-[104px] inline-flex cursor-pointer">
           <div className="pb-2.5 border-b border-stone-950 border-dashed justify-center items-center gap-2.5 flex">
-            <div className="text-stone-950 text-[15px] font-semibold font-['Utara'] uppercase">
+            <div className="text-stone-950 text-[15px] font-semibold font-Utara uppercase">
               about us
             </div>
           </div>

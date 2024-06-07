@@ -3,10 +3,10 @@
 function AboutMe() {
   return (
     <div className="w-full bg-neutral-50 p-7 flex flex-col gap-4 pb-10">
-      <div className=" p-2.5 w-fit border-2 cursor-pointer border-stone-950 text-stone-950 text-[15px] font-semibold font-['Utara'] uppercase">
+      <div className=" p-2.5 w-fit border-2 cursor-pointer border-stone-950 text-stone-950 text-[15px] font-semibold font-Utara uppercase">
         about me
       </div>
-      <div className="w-[319px] text-stone-950 text-4xl font-bold font-['Utara'] uppercase">
+      <div className="w-[319px] text-stone-950 text-4xl font-bold font-Utara uppercase">
         developer and designer
       </div>
       <div className="w-full  text-stone-950 text-xs font-['Cooper Hewitt'] capitalize">
@@ -28,12 +28,12 @@ function AboutMe() {
         just a message away!
       </div>
       <div className="p-2.5  border-b-2 border-stone-950 justify-center items-center gap-2.5 inline-flex">
-        <div className="text-stone-950 text-[15px] font-bold font-['Utara'] uppercase">
+        <div className="text-stone-950 text-[15px] font-bold font-Utara uppercase">
           people i have worked with
         </div>
       </div>
       <div className="px-[9px] w-full  items-center justify-between inline-flex">
-        <div className="text-stone-950 text-[15px] font-normal font-['Utara'] uppercase">
+        <div className="text-stone-950 text-[15px] font-normal font-Utara uppercase">
           deeds
         </div>
         <div className="justify-start items-start gap-[5px] flex">
@@ -62,7 +62,7 @@ function AboutMe() {
               </clipPath>
             </defs>
           </svg>
-          <div className="text-stone-950 text-[15px] font-normal font-['Utara'] capitalize">
+          <div className="text-stone-950 text-[15px] font-normal font-Utara capitalize">
             link
           </div>
         </div>
