@@ -5,7 +5,11 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        Utara: ['Utara', 'sans-serif'], // Define your custom font family
+      },
+    },
   },
   plugins: [],
 }

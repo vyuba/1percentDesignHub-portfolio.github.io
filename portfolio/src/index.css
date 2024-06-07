@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: 'Utara';
+  src: url('/Utara font/utara webfonts/Utara-Light.woff2') format('woff2');
+  font-weight: lighter;
+  font-style: normal;
+}
