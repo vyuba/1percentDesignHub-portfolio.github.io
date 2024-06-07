@@ -2,7 +2,7 @@
 
 function AboutMe() {
   return (
-    <div className="w-full bg-neutral-50 p-7 flex flex-col gap-4 pb-10">
+    <div className="w-full h-full bg-neutral-50 p-7 flex flex-col gap-4 pb-10">
       <div className=" p-2.5 w-fit border-2 cursor-pointer border-stone-950 text-stone-950 text-[15px] font-semibold font-Utara uppercase">
         about me
       </div>

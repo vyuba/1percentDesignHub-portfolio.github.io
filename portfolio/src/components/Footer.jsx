@@ -25,6 +25,7 @@ function Footer() {
           </div>
         </div>
         <div className=" border-l border-dashed border-neutral-50 flex-col justify-start items-start gap-2 inline-flex">
+        <a href="https://www.instagram.com/vyuba_?igsh=ZDdvbTVhZm50Mmlj&utm_source=qr">
           <div className="px-[15px] py-[7px] text-neutral-50 bg-stone-950 rounded-[10px] justify-center items-center gap-[11px] inline-flex">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -42,7 +43,9 @@ function Footer() {
             <div className=" text-[15px] font-semibold font-Utara capitalize">
               instagram
             </div>
-          </div>
+          </div>   
+        </a>
+          <a href="https://x.com/st33z_z">
           <div className="px-[15px] py-[7px] bg-stone-950 rounded-[10px] justify-center items-center gap-[11px] inline-flex">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -61,6 +64,8 @@ function Footer() {
               twitter
             </div>
           </div>
+          </a>
+          <a href="https://www.linkedin.com/in/alexander-preye-i-271aa7257?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">
           <div className="px-[15px] py-[7px] bg-stone-950 rounded-[10px] justify-center items-center gap-[11px] inline-flex">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -89,6 +94,8 @@ function Footer() {
               linkedin
             </div>
           </div>
+          </a>
+          <a href="https://www.behance.net/alexanderpreye">
           <div className="px-[15px] py-[7px] bg-stone-950 rounded-[10px] justify-center items-center gap-[11px] inline-flex">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -107,6 +114,7 @@ function Footer() {
               behance
             </div>
           </div>
+          </a>
         </div>
       </div>
     </div>
