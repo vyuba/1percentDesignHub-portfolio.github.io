@@ -1,10 +1,13 @@
 // import React from 'react'
 
+import NavbarItem from "./NavbarItem";
+
 function Navbar() {
   return (
-    <div className="w-[302px] h-full  pl-[43px] pr-[30px] pt-[108px] pb-[533px] bg-neutral-50 flex-col justify-start items-center md:inline-flex border-r ">
+    <div className=" min-w-0 max-w-[302px]  overflow-hidden h-full  pl-[43px] pr-[30px] pt-[108px] pb-[533px] bg-neutral-50 flex-col justify-start items-center md:inline-flex border-r ">
       <div className="self-stretch flex-col justify-start items-start gap-[27px] inline-flex">
-        <div className="pl-2 pr-[22px] pt-2.5 justify-center items-center gap-[135px] inline-flex cursor-pointer">
+        <NavbarItem/>
+        {/* <div className="pl-2 pr-[22px] pt-2.5 justify-center items-center gap-[135px] flex cursor-pointer hover:border-dashed hover:border-2 border-stone-400">
           <div className="pb-2.5 border-b border-stone-950 border-dashed justify-center items-center gap-2.5 flex">
             <div className="text-stone-950 text-[15px] font-semibold font-Utara uppercase">
               home
@@ -23,8 +26,8 @@ function Navbar() {
               fill="#0F0F0F"
             />
           </svg>
-        </div>
-        <div className="pl-2 pr-[22px] py-2.5 border-2 border-stone-950 justify-center items-center gap-[104px] inline-flex cursor-pointer">
+        </div> */}
+        {/* <div className="pl-2 pr-[22px] py-2.5 border-2 border-stone-950 justify-center items-center gap-[104px] inline-flex cursor-pointer">
           <div className="text-stone-950 text-[15px] font-semibold font-Utara uppercase">
             projects
           </div>
@@ -41,8 +44,8 @@ function Navbar() {
               fill="#0F0F0F"
             />
           </svg>
-        </div>
-        <div className="pl-2 pr-[22px] pt-2.5 justify-center items-center gap-[104px] inline-flex cursor-pointer">
+        </div> */}
+        {/* <div className="pl-2 pr-[22px] pt-2.5 justify-center items-center gap-[104px] inline-flex cursor-pointer">
           <div className="pb-2.5 border-b border-stone-950 border-dashed justify-center items-center gap-2.5 flex">
             <div className="text-stone-950 text-[15px] font-semibold font-Utara uppercase">
               about us
@@ -61,7 +64,7 @@ function Navbar() {
               fill="#0F0F0F"
             />
           </svg>
-        </div>
+        </div> */}
       </div>
     </div>
   );
