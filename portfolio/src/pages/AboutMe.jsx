@@ -27,6 +27,22 @@ function AboutMe() {
         remarkable together! If you need a code snippet or a design tip, I’m
         just a message away!
       </div>
+      <div className="grid gap-2">
+        <div className="pb-2.5  border-b-2 border-dashed border-stone-950 justify-start items-center inline-flex">
+            <div className="text-stone-950 text-[15px] font-bold font-Utara uppercase">
+            skills
+            </div>
+        </div>
+        <ul className="font-CooperHewitt capitalize font-medium text-sm ">
+            <li>Html</li>
+            <li>vanilla css, Tailwind css, bootstrap</li>
+            <li>JavaScript</li>
+            <li>reactjs</li>
+            <li>shopify</li>
+            <li>liquid</li>
+            <li>figma</li>
+        </ul>        
+      </div>
       <div className="pb-2.5  border-b-2 border-dashed border-stone-950 justify-start items-center inline-flex">
         <div className="text-stone-950 text-[15px] font-bold font-Utara uppercase">
           people i have worked with
@@ -36,7 +52,7 @@ function AboutMe() {
         <div className="text-stone-950 text-[15px] font-normal font-Utara uppercase">
           deeds
         </div>
-        <div className="justify-between items-center gap-[5px] flex">
+        <div className="justify-between hover:border-dashed hover:border-b border-black items-center gap-[5px] flex">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="16"

@@ -41,11 +41,17 @@ function Home() {
   };
 
   return (
-    <div className='w-full h-screen relative overflow-hidden'>
+    <div className='w-full h-full overflow-hidden'>
+    <div className='w-full h-[200px]  relative overflow-hidden'>
       <div
+        className=''
         style={followerStyle}
         onClick={handleClick}
       >
+      </div>
+    </div>
+      <div>
+        <span  className='font-Utara text-[100px] font-bold'>PORTFOLIO</span>
       </div>
     </div>
   );

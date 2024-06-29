@@ -69,9 +69,9 @@ function Footer() {
           <div className="px-[15px] py-[7px] bg-stone-950 rounded-[10px] justify-center items-center gap-[11px] inline-flex">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="15"
-              height="15"
-              viewBox="0 0 15 15"
+              width="18"
+              height="25"
+              viewBox="1 0 14 15"
               fill="none"
             >
               <g

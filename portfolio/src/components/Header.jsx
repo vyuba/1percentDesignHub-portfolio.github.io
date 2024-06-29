@@ -23,7 +23,7 @@ function Header({ toggleNavbar, isNavbarVisible }) {
               ></span>
               <span
                 className={`w-5 h-[0px] border border-stone-950 block ${
-                  !isNavbarVisible ? "w-full" : "w-0 "
+                  !isNavbarVisible ? "w-full" : "w-1"
                 }`}
               ></span>
               <span
