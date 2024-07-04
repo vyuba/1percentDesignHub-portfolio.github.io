@@ -1,4 +1,5 @@
 // import React from 'react'
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
@@ -8,21 +9,27 @@ function Footer() {
       </div>
       <div className="justify-center items-center gap-3 inline-flex">
         <div className="flex-col justify-start items-start gap-6 inline-flex">
+          <Link to="/">
           <div className="cursor-pointer hover:border-solid   p-2.5 border-b border-dashed border-neutral-50 justify-center items-center gap-2.5 inline-flex">
             <div className="text-neutral-50 text-[15px] font-semibold font-Utara uppercase">
               home
             </div>
           </div>
+          </Link>
+          <Link to="/Work">
           <div className="cursor-pointer hover:border-solid   p-2.5 border-b border-dashed border-neutral-50 justify-center items-center gap-2.5 inline-flex">
             <div className="text-neutral-50 text-[15px] font-semibold font-Utara uppercase">
               projects
             </div>
           </div>
+          </Link>
+          <Link to="/AboutMe">
           <div className="cursor-pointer hover:border-solid   p-2.5 border-b border-dashed border-neutral-50 justify-center items-center gap-2.5 inline-flex">
             <div className="text-neutral-50 text-[15px] font-semibold font-Utara uppercase">
               about me
             </div>
           </div>
+          </Link>
         </div>
         <div className=" border-l border-dashed border-neutral-50 flex-col justify-start items-start gap-2 inline-flex">
         <a href="https://www.instagram.com/vyuba_?igsh=ZDdvbTVhZm50Mmlj&utm_source=qr">

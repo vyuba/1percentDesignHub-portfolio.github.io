@@ -1,7 +1,9 @@
-// import React from 'react'
+import banner from "/assets/abut me banner.png"
 
 function AboutMe() {
   return (
+    <>
+        <img className="md:h-24 w-full" src={banner} alt="" />
     <div className="w-full h-full bg-neutral-50 p-7 flex flex-col gap-4 pb-10">
       <div className=" p-2.5 w-fit border-2 cursor-pointer border-stone-950 text-stone-950 text-[15px] font-semibold font-Utara uppercase">
         about me
@@ -84,6 +86,7 @@ function AboutMe() {
         </div>
       </div>
     </div>
+    </>
   );
 }
 

@@ -41,8 +41,8 @@ function Home() {
   };
 
   return (
-    <div className='w-full h-full overflow-hidden'>
-    <div className='w-full h-[200px]  relative overflow-hidden'>
+    <div className='w-full h-screen overflow-hidden'>
+    <div className='w-full h-[450px]  relative overflow-hidden'>
       <div
         className=''
         style={followerStyle}
