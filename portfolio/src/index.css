@@ -100,3 +100,7 @@
 }
 
 /* for infinite scroll */
+.skills{
+  grid-template-columns: repeat(auto-fit, minmax(90px, auto));
+  gap: 4.5px;
+}

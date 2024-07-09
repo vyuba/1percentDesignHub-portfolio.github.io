@@ -35,14 +35,16 @@ function AboutMe() {
             skills
             </div>
         </div>
-        <ul className="font-CooperHewitt capitalize font-medium text-sm ">
-            <li>Html</li>
-            <li>vanilla css, Tailwind css, bootstrap</li>
-            <li>JavaScript</li>
-            <li>reactjs</li>
-            <li>shopify</li>
-            <li>liquid</li>
-            <li>figma</li>
+        <ul className="skills grid text-xs font-Utara font-medium capitalize ">
+            <li className=" bg-gray-950   text-white px-3 py-2 w-fit rounded-2xl">Html</li>
+            <li className=" bg-gray-950   text-white px-3 py-2 w-fit rounded-2xl">vanilla css</li>
+            <li className=" bg-gray-950   text-white px-3 py-2 w-fit rounded-2xl">Tailwind css</li>
+            <li className=" bg-gray-950   text-white px-3 py-2 w-fit rounded-2xl">bootstrap</li>
+            <li className=" bg-gray-950   text-white px-3 py-2 w-fit rounded-2xl">JavaScript</li>
+            <li className=" bg-gray-950   text-white px-3 py-2 w-fit rounded-2xl">reactjs</li>
+            <li className=" bg-gray-950   text-white px-3 py-2 w-fit rounded-2xl">shopify</li>
+            <li className=" bg-gray-950   text-white px-3 py-2 w-fit rounded-2xl">liquid</li>
+            <li className=" bg-gray-950   text-white px-3 py-2 w-fit rounded-2xl">figma</li>
         </ul>        
       </div>
       <div className="pb-2.5  border-b-2 border-dashed border-stone-950 justify-start items-center inline-flex">

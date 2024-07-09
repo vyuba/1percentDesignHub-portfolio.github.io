@@ -64,9 +64,13 @@ function Work() {
                         <div className="w-72  h-60  bg-black"></div>
                     </div>
                     <div id="description" className="font-CooperHewitt capitalize text-sm ">
-                    got a design refrence and developed pixek perfect desin for a creative agency which focuses on videography, photography, graphic design <br></br>    
-                    <strong>built with - reactjs, Tailwind css, react-dom</strong>
+                    got a design refrence and developed pixek perfect desin for a creative agency which focuses on videography, photography, graphic design   
                     </div>
+                    <ul className="flex items-center gap-2 text-xs font-Utara font-medium capitalize">
+                     <li className=" bg-gray-950   text-white px-3 py-2 w-fit rounded-2xl">reactjs</li>
+                     <li className=" bg-gray-950   text-white px-3 py-2 w-fit rounded-2xl">Tailwind css</li>
+                     <li className=" bg-gray-950   text-white px-3 py-2 w-fit rounded-2xl">react-dom</li>
+                    </ul>
                 </div>
             </div>
         </div>
