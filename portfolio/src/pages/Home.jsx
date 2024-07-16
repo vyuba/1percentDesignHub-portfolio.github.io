@@ -124,8 +124,8 @@ function Home() {
         </Canvas> */}
         <canvas className='bg-white' id='humanHead'></canvas>
       </div>
-      <div>
-        <span className='font-Utara text-[100px] font-bold'>PORTFOLIO</span>
+      <div className='animate-scroll'>
+        <div className='font-Utara text-[100px] font-bold'>PORTFOLIO</div>
       </div>
     </div>
   );

@@ -104,3 +104,26 @@
   grid-template-columns: repeat(auto-fit, minmax(90px, auto));
   gap: 4.5px;
 }
+
+
+  /* Custom animation for the stock ticker */
+  @keyframes scroll {
+    to {
+      transform: translateX(calc(-100% - 20px));
+    }
+  }
+
+  /* Apply the scroll animation to the ticker list */
+  .animate-scroll {
+    animation: scroll 40s linear infinite;
+  }
+
+  /* Pause animation on hover */
+  .stock-ticker:hover .animate-scroll {
+    animation-play-state: paused;
+  }
+
+  /* Custom variable for the gap between ticker items */
+  .stock-ticker {
+    --gap: 20px;
+  }
